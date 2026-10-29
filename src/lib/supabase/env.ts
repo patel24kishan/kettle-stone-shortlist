@@ -37,6 +37,18 @@ export function localDirForced(): boolean {
   return value(process.env.SHORTLIST_DATA_DIR) !== '';
 }
 
+/** What bookings record as "by" while the login is switched off. */
+export const LOGIN_OFF_STAFF = 'staff (login off)';
+
+/**
+ * True when SHORTLIST_LOGIN_OFF=1 and the app runs under `npm run dev`: Supabase still stores everything, but the
+ * staff login is skipped as if someone were signed in. Ignored by `next build` / `next start` and on Vercel
+ * (NODE_ENV=production), so a deployed app always asks for the login.
+ */
+export function loginOff(): boolean {
+  return value(process.env.SHORTLIST_LOGIN_OFF) === '1' && process.env.NODE_ENV === 'development';
+}
+
 /** True when the app stores everything in Supabase and requires the staff login. */
 export function supabaseMode(): boolean {
   return !localDirForced() && supabaseServerEnv() !== null;

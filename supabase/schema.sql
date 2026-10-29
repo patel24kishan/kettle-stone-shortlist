@@ -199,6 +199,13 @@ revoke all on table public.imports, public.reading_cache, public.booked, public.
   from anon, authenticated;
 grant select on table public.app_state to authenticated;
 
+-- The server (service-role key) needs explicit rights: newer projects may not grant new tables to the API roles
+-- automatically, and then the app's key gets "table not found". RLS does not apply to service_role.
+grant usage on schema public to service_role, authenticated;
+grant select, insert, update, delete on table public.imports, public.reading_cache, public.booked,
+  public.booked_history, public.app_state to service_role;
+grant usage, select on all sequences in schema public to service_role;
+
 -- The functions are for the server only.
 revoke all on function public.bump_version() from public, anon, authenticated;
 revoke all on function public.undo_booked(text) from public, anon, authenticated;
@@ -221,3 +228,6 @@ begin
   end if;
 end;
 $$;
+
+-- Tell the Data API to reload its list of tables and functions now (otherwise new tables can show as "not found").
+notify pgrst, 'reload schema';

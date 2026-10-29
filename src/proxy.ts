@@ -12,7 +12,7 @@ import { createServerClient } from '@supabase/ssr';
 import type { CookieOptions } from '@supabase/ssr';
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
-import { supabaseMode, supabasePublicEnv } from '@/lib/supabase/env';
+import { LOGIN_OFF_STAFF, loginOff, supabaseMode, supabasePublicEnv } from '@/lib/supabase/env';
 import { LOGIN_PATH, isApiPath as isApi, isLoginPath as isLogin, isStaticAsset, safeNext } from '@/lib/supabase/paths';
 import { STAFF_HEADER } from '@/lib/supabase/staff';
 
@@ -29,6 +29,14 @@ export async function proxy(request: NextRequest): Promise<NextResponse> {
   if (!supabaseMode()) return NextResponse.next();
   const { pathname } = request.nextUrl;
   if (isStaticAsset(pathname)) return NextResponse.next();
+
+  // Dev-only switch (SHORTLIST_LOGIN_OFF=1 under npm run dev): act as if a staff member were signed in.
+  if (loginOff()) {
+    if (isLogin(pathname)) return NextResponse.redirect(new URL('/search', request.url));
+    const headers = new Headers(request.headers);
+    headers.set(STAFF_HEADER, encodeURIComponent(LOGIN_OFF_STAFF));
+    return NextResponse.next({ request: { headers } });
+  }
 
   const env = supabasePublicEnv();
   if (!env) {

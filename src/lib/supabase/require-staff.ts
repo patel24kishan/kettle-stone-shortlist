@@ -9,7 +9,7 @@
 // It never writes cookies: the proxy runs first and has already refreshed the session (and put the refreshed
 // cookies on the request the route sees), so a route only has to read them.
 import { createServerClient, parseCookieHeader } from '@supabase/ssr';
-import { supabaseMode, supabasePublicEnv } from '@/lib/supabase/env';
+import { loginOff, supabaseMode, supabasePublicEnv } from '@/lib/supabase/env';
 
 const NO_STORE = { 'Cache-Control': 'private, no-store' };
 
@@ -22,6 +22,7 @@ export const LOGIN_NOT_SET_UP_MESSAGE = 'Staff login is not set up yet (NEXT_PUB
  */
 export async function requireStaff(request?: Request): Promise<Response | null> {
   if (!supabaseMode()) return null;
+  if (loginOff()) return null; // dev-only switch: treated as signed in (see env.ts)
 
   const env = supabasePublicEnv();
   if (!env) return Response.json({ ok: false, message: LOGIN_NOT_SET_UP_MESSAGE }, { status: 503, headers: NO_STORE });
