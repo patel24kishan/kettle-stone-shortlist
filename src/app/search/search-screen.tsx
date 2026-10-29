@@ -737,10 +737,10 @@ function FileResults({
         {visible.map((o) => (
           <section key={o.id} aria-labelledby={`${uid}-o-${o.id}`} className={styles.opening}>
             <div className={styles.resultHead}>
+              <span className={styles.summarySmall}>{o.summary}</span>
               <h3 id={`${uid}-o-${o.id}`} className={styles.h3}>
                 {o.id} · {o.fitLabel}
               </h3>
-              <span className={styles.summarySmall}>{o.summary}</span>
             </div>
             <OpeningBody view={o} big={false} {...rest} />
           </section>

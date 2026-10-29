@@ -286,16 +286,35 @@
 .h2 {
   font-size: 24px;
 }
+/* The opening id and status ("O01 · Filled") is a quiet label; the therapist, day and time beside it is the line
+   Tanya scans for, so it gets the strong style (.summarySmall). */
 .h3 {
-  font-size: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--text-3);
+}
+/* In an opening's strip the id label sits at the right end. */
+.opening > .resultHead > .h3 {
+  margin-left: auto;
+  text-align: right;
+}
+/* Each opening's title row sits on its own white strip so it reads clearly against the grey page. */
+.opening > .resultHead {
+  justify-content: space-between;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  padding: 12px 16px;
 }
 .summary {
   font-size: 17px;
-  color: var(--text-3);
+  font-weight: 500;
+  color: var(--text-2);
 }
 .summarySmall {
-  font-size: 16px;
-  color: var(--text-3);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text);
 }
 .footer {
   margin: 0;
