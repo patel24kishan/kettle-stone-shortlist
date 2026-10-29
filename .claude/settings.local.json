@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(claude-api)",
+      "PowerShell(foreach \\($c in 'node','npm','git','docker'\\) { $cmd = Get-Command $c -ErrorAction SilentlyContinue; if \\($cmd\\) { \"$c : \" + \\(& $c --version\\) } else { \"$c : not found\" } })",
+      "PowerShell(\"ANTHROPIC_API_KEY set: \" + [bool]$env:ANTHROPIC_API_KEY; $a = Get-Command ant -ErrorAction SilentlyContinue; if \\($a\\) { ant auth status } else { \"ant CLI: not found\" }; \"supabase CLI: \" + [bool]\\(Get-Command supabase -ErrorAction SilentlyContinue\\); \"vercel CLI: \" + [bool]\\(Get-Command vercel -ErrorAction SilentlyContinue\\))"
+    ]
+  }
+}

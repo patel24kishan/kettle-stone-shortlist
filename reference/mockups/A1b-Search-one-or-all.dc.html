@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Search one opening or all from a file</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@400&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#0F766E}a:hover{color:#115E59}
+</style>
+</helmet>
+<div style="min-height: 2060px; background: #F4F5F7; font-family: 'IBM Plex Sans', system-ui, sans-serif; color: #1F2937">
+  <header style="background: #FFFFFF; border-bottom: 1px solid #D1D5DB; padding: 0 30px; min-height: 62px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px">
+    <div style="display: flex; align-items: baseline; gap: 12px">
+      <span style="font-size: 18px; font-weight: 600; color: #111827">Kettle &amp; Stone</span>
+      <span style="font-size: 16px; color: #4B5563">Waitlist shortlist</span>
+    </div>
+    <span style="font-size: 15px; color: #4B5563">Front desk</span>
+  </header>
+  <main style="padding: 36px 48px; display: flex; flex-direction: column; gap: 28px; max-width: 1520px">
+    <section aria-labelledby="a1b-h" style="background: #FFFFFF; border: 1px solid #D1D5DB; border-radius: 8px; padding: 28px 30px; display: flex; flex-direction: column; gap: 22px">
+      <h1 id="a1b-h" style="margin: 0; font-size: 22px; font-weight: 600; color: #111827">{{formTitle}}</h1>
+      <fieldset style="border: 0; margin: 0; padding: 0">
+        <legend style="font-size: 14px; font-weight: 500; color: #374151; padding: 0; margin-bottom: 8px">Search</legend>
+        <div style="display: inline-flex; flex-wrap: wrap; border: 1px solid #9CA3AF; border-radius: 8px; overflow: hidden">
+          <label style="min-height: 52px; box-sizing: border-box; padding: 0 22px; display: flex; align-items: center; gap: 10px; font-size: 17px; color: #111827; border-right: 1px solid #9CA3AF; cursor: pointer; background: {{oneBg}}; font-weight: {{oneWeight}}; box-shadow: {{oneRing}}"><input type="radio" name="a1b-mode" checked="{{isOne}}" onChange="{{pickOne}}" style="width: 18px; height: 18px; margin: 0; accent-color: #0F766E">One opening</label>
+          <label style="min-height: 52px; box-sizing: border-box; padding: 0 22px; display: flex; align-items: center; gap: 10px; font-size: 17px; color: #111827; cursor: pointer; background: {{fileBg}}; font-weight: {{fileWeight}}; box-shadow: {{fileRing}}"><input type="radio" name="a1b-mode" checked="{{isFile}}" onChange="{{pickFile}}" style="width: 18px; height: 18px; margin: 0; accent-color: #0F766E">All openings from a file</label>
+        </div>
+      </fieldset>
+
+      <sc-if value="{{isOne}}" hint-placeholder-val="{{ false }}">
+        <div style="display: flex; flex-direction: column; gap: 22px">
+          <div style="display: flex; flex-wrap: wrap; gap: 22px; align-items: flex-end">
+            <div style="display: flex; flex-direction: column; gap: 8px">
+              <label for="a1b-date" style="font-size: 14px; font-weight: 500; color: #374151">Date</label>
+              <input id="a1b-date" type="date" value="2026-10-15" style="height: 52px; box-sizing: border-box; padding: 0 14px; font: inherit; font-size: 17px; border: 1px solid #9CA3AF; border-radius: 6px; color: #111827; background: #FFFFFF; width: 206px">
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 8px">
+              <label for="a1b-time" style="font-size: 14px; font-weight: 500; color: #374151">Start time</label>
+              <input id="a1b-time" type="time" value="14:00" style="height: 52px; box-sizing: border-box; padding: 0 14px; font: inherit; font-size: 17px; border: 1px solid #9CA3AF; border-radius: 6px; color: #111827; background: #FFFFFF; width: 162px">
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 8px">
+              <label for="a1b-ther" style="font-size: 14px; font-weight: 500; color: #374151">Therapist</label>
+              <select id="a1b-ther" style="height: 52px; box-sizing: border-box; padding: 0 14px; font: inherit; font-size: 17px; border: 1px solid #9CA3AF; border-radius: 6px; color: #111827; background: #FFFFFF; width: 230px">
+                <option>Dave Melanson</option>
+                <option>Amira Haddad</option>
+                <option>Josée Landry</option>
+                <option>Kelsey Babineau</option>
+                <option>Marc Cormier</option>
+                <option>Rachel Thibodeau</option>
+              </select>
+            </div>
+            <fieldset style="border: 0; margin: 0; padding: 0">
+              <legend style="font-size: 14px; font-weight: 500; color: #374151; padding: 0; margin-bottom: 8px">Length</legend>
+              <div style="display: flex; flex-wrap: wrap; gap: 10px">
+                <label style="height: 54px; box-sizing: border-box; padding: 0 18px; display: flex; align-items: center; gap: 10px; border: 1px solid #9CA3AF; border-radius: 6px; background: #FFFFFF; font-size: 17px; color: #111827"><input type="radio" name="a1b-len" value="30" style="width: 18px; height: 18px; margin: 0; accent-color: #0F766E">30 min</label>
+                <label style="height: 54px; box-sizing: border-box; padding: 0 18px; display: flex; align-items: center; gap: 10px; border: 1px solid #9CA3AF; border-radius: 6px; background: #FFFFFF; font-size: 17px; color: #111827"><input type="radio" name="a1b-len" value="45" style="width: 18px; height: 18px; margin: 0; accent-color: #0F766E">45 min</label>
+                <label style="height: 54px; box-sizing: border-box; padding: 0 18px; display: flex; align-items: center; gap: 10px; border: 2px solid #0F766E; border-radius: 6px; background: #E6F4F1; font-size: 17px; font-weight: 600; color: #111827"><input type="radio" name="a1b-len" value="60" checked style="width: 18px; height: 18px; margin: 0; accent-color: #0F766E">60 min</label>
+                <label style="height: 54px; box-sizing: border-box; padding: 0 18px; display: flex; align-items: center; gap: 10px; border: 1px solid #9CA3AF; border-radius: 6px; background: #FFFFFF; font-size: 17px; color: #111827"><input type="radio" name="a1b-len" value="90" style="width: 18px; height: 18px; margin: 0; accent-color: #0F766E">90 min</label>
+              </div>
+            </fieldset>
+          </div>
+          <div>
+            <button type="button" style="height: 52px; padding: 0 26px; border: 0; border-radius: 6px; background: #0F766E; color: #FFFFFF; font: inherit; font-size: 17px; font-weight: 600">Search waitlist</button>
+          </div>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{isFile}}" hint-placeholder-val="{{ true }}">
+        <div style="display: flex; flex-direction: column; gap: 22px">
+          <div style="display: flex; flex-wrap: wrap; gap: 22px; align-items: flex-end">
+            <div style="display: flex; flex-direction: column; gap: 8px">
+              <label for="a1b-file" style="font-size: 14px; font-weight: 500; color: #374151">Late openings CSV</label>
+              <div style="min-height: 52px; box-sizing: border-box; padding: 6px 14px; display: flex; flex-wrap: wrap; align-items: center; gap: 14px; border: 1px solid #9CA3AF; border-radius: 6px">
+                <input id="a1b-file" type="file" accept=".csv" style="font: inherit; font-size: 15px; min-height: 40px">
+                <span style="font-family: 'IBM Plex Mono', monospace; font-size: 14px; color: #374151">late-openings-2026-09-21-to-2026-10-17.csv</span>
+              </div>
+            </div>
+            <span style="min-height: 52px; display: flex; align-items: center; gap: 8px; font-size: 15px; color: #065F46">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#047857" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5 10 17 19 7"></path></svg>
+              44 openings · columns OK
+            </span>
+          </div>
+          <p style="margin: 0; font-size: 15px; color: #4B5563">Matched against the waitlist imported in Waitlist (admin): Wed, Oct 21 · 30 people ready.</p>
+          <div>
+            <button type="button" style="height: 52px; padding: 0 26px; border: 0; border-radius: 6px; background: #0F766E; color: #FFFFFF; font: inherit; font-size: 17px; font-weight: 600">Search all openings</button>
+          </div>
+        </div>
+      </sc-if>
+    </section>
+
+    <sc-if value="{{isOne}}" hint-placeholder-val="{{ false }}">
+      <section aria-labelledby="a1b-one" style="display: flex; flex-direction: column; gap: 18px">
+        <div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 16px">
+          <h2 id="a1b-one" style="margin: 0; font-size: 24px; font-weight: 600; color: #111827">3 people fit</h2>
+          <span style="font-size: 17px; color: #4B5563">Dave Melanson · Thu, Oct 15 · 2:00 to 3:00 PM · 60 min</span>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px">
+          <sc-for list="{{onePeople}}" as="p" hint-placeholder-count="3">
+            <article style="background: #FFFFFF; border: 1px solid #D1D5DB; border-radius: 8px; padding: 24px; display: flex; flex-direction: column; gap: 14px">
+              <div style="display: flex; align-items: center; gap: 14px">
+                <span style="width: 38px; height: 38px; border-radius: 50%; background: #E6F4F1; color: #0F766E; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 17px">{{p.n}}</span>
+                <span style="font-size: 21px; font-weight: 600; color: #111827">{{p.name}}</span>
+              </div>
+              <span style="font-size: 21px; font-weight: 500; color: #0F766E">{{p.phone}}</span>
+              <span style="font-size: 15px; color: #4B5563">Waitlist line {{p.line}}</span>
+              <button type="button" style="min-height: 54px; box-sizing: border-box; padding: 0 20px; display: flex; align-items: center; justify-content: center; gap: 10px; border: 1px solid #0F766E; border-radius: 6px; background: #FFFFFF; color: #0F766E; font: inherit; font-size: 18px; font-weight: 600"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0F766E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5 10 17 19 7"></path></svg>Booked</button>
+            </article>
+          </sc-for>
+        </div>
+        <p style="margin: 0; font-size: 16px; color: #4B5563">Tap Booked once they've said yes and it's booked in Kneadly. They won't be suggested again, for this or any other opening. A no or no answer changes nothing.</p>
+      </section>
+    </sc-if>
+
+    <sc-if value="{{isFile}}" hint-placeholder-val="{{ true }}">
+      <section aria-labelledby="a1b-res" style="display: flex; flex-direction: column; gap: 20px">
+        <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 14px">
+          <div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 16px">
+            <h2 id="a1b-res" style="margin: 0; font-size: 24px; font-weight: 600; color: #111827">44 openings searched</h2>
+            <span style="font-size: 17px; color: #4B5563">34 have people · 10 nobody</span>
+          </div>
+          <button type="button" style="min-height: 48px; padding: 0 20px; border: 1px solid #0F766E; border-radius: 6px; background: #FFFFFF; color: #0F766E; font: inherit; font-size: 16px; font-weight: 600">Download results.csv</button>
+        </div>
+        <div role="tablist" aria-label="Show" style="display: flex; flex-wrap: wrap; gap: 8px">
+          <sc-for list="{{tabs}}" as="t" hint-placeholder-count="3">
+            <button type="button" role="tab" aria-selected="{{t.on}}" onClick="{{t.pick}}" style="min-height: 46px; padding: 0 18px; border-radius: 999px; font: inherit; font-size: 16px; cursor: pointer; border: {{t.border}}; background: {{t.bg}}; color: {{t.ink}}; font-weight: {{t.weight}}">{{t.label}}</button>
+          </sc-for>
+        </div>
+
+        <sc-for list="{{shown}}" as="o" hint-placeholder-count="3">
+          <div style="display: flex; flex-direction: column; gap: 12px">
+            <div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 14px">
+              <h3 style="margin: 0; font-size: 20px; font-weight: 600; color: #111827">{{o.id}} · {{o.fit}}</h3>
+              <span style="font-size: 16px; color: #4B5563">{{o.summary}}</span>
+            </div>
+            <sc-if value="{{o.hasPeople}}" hint-placeholder-val="{{ true }}">
+              <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px">
+                <sc-for list="{{o.people}}" as="p" hint-placeholder-count="3">
+                  <article style="background: #FFFFFF; border: 1px solid #D1D5DB; border-radius: 8px; padding: 20px 22px; display: flex; flex-direction: column; gap: 10px">
+                    <div style="display: flex; align-items: center; gap: 12px">
+                      <span style="width: 34px; height: 34px; border-radius: 50%; background: #E6F4F1; color: #0F766E; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 16px">{{p.n}}</span>
+                      <span style="font-size: 19px; font-weight: 600; color: #111827">{{p.name}}</span>
+                    </div>
+                    <span style="font-size: 19px; font-weight: 500; color: #0F766E">{{p.phone}}</span>
+                    <span style="font-size: 15px; color: #4B5563">Waitlist line {{p.line}}</span>
+                    <button type="button" style="min-height: 50px; box-sizing: border-box; padding: 0 18px; display: flex; align-items: center; justify-content: center; gap: 10px; border: 1px solid #0F766E; border-radius: 6px; background: #FFFFFF; color: #0F766E; font: inherit; font-size: 17px; font-weight: 600"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0F766E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5 10 17 19 7"></path></svg>Booked</button>
+                  </article>
+                </sc-for>
+              </div>
+            </sc-if>
+            <sc-if value="{{o.isShort}}" hint-placeholder-val="{{ false }}">
+              <p style="margin: 0; font-size: 16px; color: #4B5563">That’s everyone who fits. Nobody else on the waitlist can take this opening.</p>
+            </sc-if>
+            <sc-if value="{{o.isNobody}}" hint-placeholder-val="{{ false }}">
+              <div style="background: #FFFFFF; border: 1px dashed #9CA3AF; border-radius: 8px; padding: 24px; display: flex; align-items: center; gap: 16px">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#374151" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="M15.5 15.5 21 21"></path><path d="M7.5 10.5h6"></path></svg>
+                <div style="display: flex; flex-direction: column; gap: 4px">
+                  <p style="margin: 0; font-size: 18px; font-weight: 600; color: #111827">{{o.head}}</p>
+                  <p style="margin: 0; font-size: 16px; color: #4B5563">{{o.why}}</p>
+                </div>
+              </div>
+            </sc-if>
+          </div>
+        </sc-for>
+        <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 16px">
+          <button type="button" style="min-height: 48px; padding: 0 20px; border: 1px solid #9CA3AF; border-radius: 6px; background: #FFFFFF; font: inherit; font-size: 16px; color: #1F2937">{{moreLabel}}</button>
+          <span style="font-size: 16px; color: #4B5563">Tap Booked once they've said yes. They won't be suggested again, for this or any other opening. A no or no answer changes nothing.</span>
+        </div>
+      </section>
+    </sc-if>
+  </main>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":2060}}'>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { mode: 'file', filter: 'fit' };
+  }
+  renderVals() {
+    const { mode, filter } = this.state;
+    const p = (n, name, phone, line) => ({ n, name, phone, line });
+    const fitOpen = (id, summary, people) => ({ id, fit: people.length === 1 ? '1 person fits' : `${people.length} people fit`, summary, people, hasPeople: true, isShort: people.length < 3, isNobody: false, head: '', why: '' });
+    const noOpen = (id, summary, head, why) => ({ id, fit: 'Nobody fits', summary, people: [], hasPeople: false, isShort: false, isNobody: true, head, why });
+    const nobodyHead = 'No one on the waitlist can take this opening.';
+    const all = [
+      fitOpen('O30', 'Dave Melanson · Thu, Oct 8 · 11:00 AM to 12:00 PM · 60 min', [p(1, 'Shawn Duguay', '(506) 555-0140', 46)]),
+      noOpen('O31', 'Dave Melanson · Thu, Oct 8 · 3:15 to 4:15 PM · 60 min', nobodyHead, 'Nobody matches this therapist, day, time, length and notice (1 h 14 min).'),
+      fitOpen('O32', 'Rachel Thibodeau · Fri, Oct 9 · 1:45 to 2:45 PM · 60 min', [p(1, 'Amanda Bourgeois', '(506) 555-0125', 42), p(2, 'Andrea Pitre', '(506) 555-0141', 49)]),
+      fitOpen('O34', 'Rachel Thibodeau · Wed, Oct 14 · 11:00 AM to 12:00 PM · 60 min', [p(1, 'Patrick Chiasson', '(506) 555-0131', 33), p(2, 'Amanda Bourgeois', '(506) 555-0125', 42), p(3, 'Carole Mazerolle', '(506) 555-0115', 48)]),
+      fitOpen('O35', 'Rachel Thibodeau · Wed, Oct 14 · 3:00 to 4:00 PM · 60 min', [p(1, 'Amanda Bourgeois', '(506) 555-0125', 42), p(2, 'Andrea Pitre', '(506) 555-0141', 49), p(3, 'Luc Bernard', '(506) 555-0121', 53)]),
+      fitOpen('O36', 'Kelsey Babineau · Wed, Oct 14 · 4:00 to 5:00 PM · 60 min', [p(1, 'Sarah Collette', '(506) 555-0109', 10), p(2, 'Denis Thériault', '(506) 555-0111', 12), p(3, 'Vanessa Caissie', '(506) 555-0136', 40)]),
+      noOpen('O37', 'Dave Melanson · Thu, Oct 15 · 11:00 AM to 12:00 PM · 60 min', 'No-show: there is no time to offer it.', 'We only know 15 minutes after the start, so the waitlist isn’t searched.'),
+      noOpen('O40', 'Rachel Thibodeau · Thu, Oct 15 · 4:00 to 5:00 PM · 60 min', nobodyHead, 'Nobody matches this therapist, day, time, length and notice (1 h 17 min).')
+    ];
+    const shown = filter === 'fit' ? all.filter((o) => o.hasPeople) : filter === 'nobody' ? all.filter((o) => o.isNobody) : all;
+    const more = { all: 'Show 36 more', fit: 'Show 29 more', nobody: 'Show 7 more' }[filter];
+    const tab = (key, label) => {
+      const on = filter === key;
+      return { label, on, pick: () => this.setState({ filter: key }), border: on ? '1px solid #0F766E' : '1px solid #9CA3AF', bg: on ? '#0F766E' : '#FFFFFF', ink: on ? '#FFFFFF' : '#1F2937', weight: on ? 600 : 400 };
+    };
+    const isOne = mode === 'one';
+    return {
+      isOne,
+      isFile: !isOne,
+      formTitle: isOne ? 'Late opening' : 'Late openings',
+      pickOne: () => this.setState({ mode: 'one' }),
+      pickFile: () => this.setState({ mode: 'file' }),
+      oneBg: isOne ? '#E6F4F1' : '#FFFFFF',
+      oneWeight: isOne ? 600 : 400,
+      oneRing: isOne ? 'inset 0 0 0 2px #0F766E' : 'none',
+      fileBg: isOne ? '#FFFFFF' : '#E6F4F1',
+      fileWeight: isOne ? 400 : 600,
+      fileRing: isOne ? 'none' : 'inset 0 0 0 2px #0F766E',
+      onePeople: [p(1, 'Shawn Duguay', '(506) 555-0140', 46), p(2, 'Luc Bernard', '(506) 555-0121', 53), p(3, 'Lise Gautreau', '(506) 555-0144', 57)],
+      tabs: [tab('all', 'All · 44'), tab('fit', 'People fit · 34'), tab('nobody', 'Nobody · 10')],
+      shown,
+      moreLabel: more
+    };
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Admin: import and analyse the waitlist</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@400&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#0F766E}a:hover{color:#115E59}
+</style>
+</helmet>
+<div style="min-height: 1760px; background: #F4F5F7; font-family: 'IBM Plex Sans', system-ui, sans-serif; color: #1F2937">
+  <header style="background: #FFFFFF; border-bottom: 1px solid #D1D5DB; padding: 8px 30px; min-height: 66px; box-sizing: border-box; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px">
+    <div style="display: flex; align-items: baseline; gap: 12px">
+      <span style="font-size: 18px; font-weight: 600; color: #111827">Kettle &amp; Stone</span>
+      <span style="font-size: 16px; color: #4B5563">Waitlist shortlist</span>
+    </div>
+    <nav aria-label="Screens" style="display: flex; flex-wrap: wrap; gap: 6px">
+      <a href="Main.dc.html" style="min-height: 46px; box-sizing: border-box; padding: 0 16px; display: flex; align-items: center; border-radius: 8px; font-size: 16px; font-weight: 500; text-decoration: none; color: #0F766E">Search one opening</a>
+      <a href="A3-Todays-openings.dc.html" style="min-height: 46px; box-sizing: border-box; padding: 0 16px; display: flex; align-items: center; border-radius: 8px; font-size: 16px; font-weight: 500; text-decoration: none; color: #0F766E">Today's openings</a>
+      <a href="A4-Week-schedule.dc.html" style="min-height: 46px; box-sizing: border-box; padding: 0 16px; display: flex; align-items: center; border-radius: 8px; font-size: 16px; font-weight: 500; text-decoration: none; color: #0F766E">Week schedule</a>
+      <a href="#" aria-current="page" style="min-height: 46px; box-sizing: border-box; padding: 0 16px; display: flex; align-items: center; border-radius: 8px; font-size: 16px; font-weight: 600; text-decoration: none; color: #115E59; background: #E6F4F1">Waitlist (admin)</a>
+    </nav>
+  </header>
+  <main style="padding: 32px 48px; display: flex; flex-direction: column; gap: 28px; max-width: 1520px">
+    <div style="display: flex; flex-direction: column; gap: 6px">
+      <h1 style="margin: 0; font-size: 28px; font-weight: 600; color: #111827">Waitlist</h1>
+      <p style="margin: 0; font-size: 16px; color: #4B5563">Import the waitlist and the late openings. Each person's notes are read and sorted into preferred therapist, length, availability and notice, so the search can pick the right 3.</p>
+    </div>
+
+    <section aria-labelledby="b5-import" style="background: #FFFFFF; border: 1px solid #D1D5DB; border-radius: 8px; padding: 24px 26px; display: flex; flex-direction: column; gap: 16px">
+      <div style="display: flex; flex-direction: column; gap: 6px">
+        <h2 id="b5-import" style="margin: 0; font-size: 21px; font-weight: 600; color: #111827">1 · Import files</h2>
+        <p style="margin: 0; font-size: 15px; color: #4B5563">The clinic's CSV files as they are, with the same columns as always. The files are never changed.</p>
+      </div>
+      <sc-for list="{{files}}" as="f" hint-placeholder-count="3">
+        <div style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr); gap: 18px; align-items: center; padding-bottom: 14px; border-bottom: 1px solid #EEF0F2">
+          <div style="display: flex; flex-direction: column; gap: 4px">
+            <label for="{{f.id}}" style="font-size: 16px; font-weight: 600; color: #111827">{{f.label}}</label>
+            <span style="font-size: 14px; color: #4B5563">{{f.hint}}</span>
+          </div>
+          <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap">
+            <input id="{{f.id}}" type="file" accept=".csv" style="font: inherit; font-size: 15px; min-height: 44px">
+            <span style="font-family: 'IBM Plex Mono', monospace; font-size: 14px; color: #374151; overflow-wrap: anywhere">{{f.file}}</span>
+          </div>
+          <div style="display: flex; align-items: center; gap: 10px; font-size: 15px; color: #065F46">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#047857" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5 10 17 19 7"></path></svg>
+            <span>{{f.check}}</span>
+          </div>
+        </div>
+      </sc-for>
+      <div style="display: flex; flex-wrap: wrap; align-items: flex-end; gap: 22px">
+        <div style="display: flex; flex-direction: column; gap: 8px">
+          <label for="b5-run" style="font-size: 14px; font-weight: 500; color: #374151">Run date (count from this day)</label>
+          <input id="b5-run" type="date" value="2026-10-21" style="height: 48px; box-sizing: border-box; padding: 0 12px; font: inherit; font-size: 16px; border: 1px solid #9CA3AF; border-radius: 6px; width: 200px">
+        </div>
+        <button type="button" style="min-height: 50px; padding: 0 26px; border: 0; border-radius: 6px; background: #0F766E; color: #FFFFFF; font: inherit; font-size: 16px; font-weight: 600">Import and analyse</button>
+      </div>
+    </section>
+
+    <section aria-labelledby="b5-sum" style="display: flex; flex-direction: column; gap: 14px">
+      <h2 id="b5-sum" style="margin: 0; font-size: 21px; font-weight: 600; color: #111827">2 · What the notes say</h2>
+      <div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px">
+        <div style="background: #FFFFFF; border: 1px solid #D1D5DB; border-radius: 8px; padding: 16px 18px; display: flex; flex-direction: column; gap: 4px">
+          <span style="font-size: 14px; color: #4B5563">Waitlist lines read</span>
+          <span style="font-size: 28px; font-weight: 600; color: #111827">60</span>
+        </div>
+        <div style="background: #FFFFFF; border: 1px solid #D1D5DB; border-radius: 8px; padding: 16px 18px; display: flex; flex-direction: column; gap: 4px">
+          <span style="font-size: 14px; color: #4B5563">People ready to match</span>
+          <span style="font-size: 28px; font-weight: 600; color: #0F766E">30</span>
+        </div>
+        <div style="background: #FFFFFF; border: 1px solid #D1D5DB; border-radius: 8px; padding: 16px 18px; display: flex; flex-direction: column; gap: 4px">
+          <span style="font-size: 14px; color: #4B5563">Repeat lines merged</span>
+          <span style="font-size: 28px; font-weight: 600; color: #111827">10</span>
+        </div>
+        <div style="background: #FFFFFF; border: 1px solid #D1D5DB; border-radius: 8px; padding: 16px 18px; display: flex; flex-direction: column; gap: 4px">
+          <span style="font-size: 14px; color: #4B5563">Stale lines, never offered</span>
+          <span style="font-size: 28px; font-weight: 600; color: #111827">20</span>
+        </div>
+      </div>
+
+      <div style="background: #FFFFFF; border: 1px solid #D1D5DB; border-radius: 8px; overflow-x: auto">
+        <table style="width: 100%; min-width: 1100px; border-collapse: collapse; font-size: 15px">
+          <caption style="text-align: left; padding: 14px 16px 4px; font-size: 15px; color: #4B5563">People ready to match. Grey text is the wording in the notes that each value came from. Showing 8 of 30.</caption>
+          <thead>
+            <tr style="text-align: left; background: #F9FAFB; color: #374151">
+              <th scope="col" style="padding: 12px 14px; font-weight: 600; border-bottom: 1px solid #E5E7EB">Line</th>
+              <th scope="col" style="padding: 12px 14px; font-weight: 600; border-bottom: 1px solid #E5E7EB">Person</th>
+              <th scope="col" style="padding: 12px 14px; font-weight: 600; border-bottom: 1px solid #E5E7EB">Preferred therapist</th>
+              <th scope="col" style="padding: 12px 14px; font-weight: 600; border-bottom: 1px solid #E5E7EB">Length</th>
+              <th scope="col" style="padding: 12px 14px; font-weight: 600; border-bottom: 1px solid #E5E7EB">Availability</th>
+              <th scope="col" style="padding: 12px 14px; font-weight: 600; border-bottom: 1px solid #E5E7EB">Notice needed</th>
+            </tr>
+          </thead>
+          <tbody>
+            <sc-for list="{{people}}" as="a" hint-placeholder-count="8">
+              <tr style="vertical-align: top">
+                <td style="padding: 12px 14px; border-bottom: 1px solid #EEF0F2; font-weight: 600; color: #111827">{{a.line}}<div style="font-weight: 400; font-size: 13px; color: #4B5563">{{a.merged}}</div></td>
+                <td style="padding: 12px 14px; border-bottom: 1px solid #EEF0F2"><div style="font-weight: 600; color: #111827">{{a.name}}</div><div style="color: #0F766E">{{a.phone}}</div></td>
+                <sc-for list="{{a.cells}}" as="c" hint-placeholder-count="4">
+                  <td style="padding: 12px 14px; border-bottom: 1px solid #EEF0F2"><div style="color: #111827">{{c.v}}</div><div style="font-size: 13px; color: #4B5563">{{c.src}}</div></td>
+                </sc-for>
+              </tr>
+            </sc-for>
+          </tbody>
+        </table>
+      </div>
+
+      <div style="background: #FFFFFF; border: 1px solid #D1D5DB; border-radius: 8px; padding: 18px 20px; display: flex; flex-direction: column; gap: 8px">
+        <h3 style="margin: 0; font-size: 18px; font-weight: 600; color: #111827">Not offered, and why</h3>
+        <ul style="list-style: none; margin: 0; padding: 0">
+          <sc-for list="{{stale}}" as="s" hint-placeholder-count="5">
+            <li style="padding: 10px 0; border-bottom: 1px solid #EEF0F2; display: flex; flex-wrap: wrap; gap: 6px 14px">
+              <span style="font-size: 15px; font-weight: 600; color: #111827; min-width: 220px">{{s.who}}</span>
+              <span style="font-size: 15px; color: #374151">{{s.why}}</span>
+            </li>
+          </sc-for>
+        </ul>
+        <span style="font-size: 14px; color: #4B5563">Showing 4 of the 20 stale lines, plus one example of someone booked through the tool. Notes about health are never shown.</span>
+      </div>
+    </section>
+  </main>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":1760}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const c = (v, src) => ({ v, src: src || '' });
+    const row = (line, merged, name, phone, cells) => ({ line, merged, name, phone, cells });
+    return {
+      files: [
+        { id: 'b5-wl', label: 'Waitlist CSV', hint: 'line, added, name, phone, notes', file: 'waitlist-2026-10-21.csv', check: '60 lines · columns OK' },
+        { id: 'b5-op', label: 'Late openings CSV', hint: 'opening_id, date, start, length_min, therapist, kind, cancelled_at, hours_notice …', file: 'late-openings-2026-09-21-to-2026-10-17.csv', check: '44 openings · columns OK' },
+        { id: 'b5-ap', label: 'Booking export CSV', hint: 'Used to see who has booked since', file: 'appointments-2026-09-21-to-2026-10-17.csv', check: '595 appointments · columns OK' }
+      ],
+      people: [
+        row('W12', '', 'Denis Thériault', '(506) 555-0111', [c('Anyone but Dave', '"anyone but Dave"'), c('60 min', '"1hr"'), c('Not Thu · start 3:30 PM or later', '"not Thurs", "after 3:30"'), c('2 h', 'none written: default')]),
+        row('W33', '', 'Patrick Chiasson', '(506) 555-0131', [c('Anyone but Dave', '"AB Dave"'), c('60 min', '"1hr"'), c('Not Mon · mornings', '"not Mon", "AM"'), c('2 h', 'none written: default')]),
+        row('W40', '', 'Vanessa Caissie', '(506) 555-0136', [c('Amira or Kelsey', 'clinic rule · wording hidden'), c('60 min', 'none written: default'), c('Any day, any time', ''), c('3 h', '"needs 2-3 hrs" (higher number)')]),
+        row('W42', 'merged W26', 'Amanda Bourgeois', '(506) 555-0125', [c('Rachel or Josée', '"still R/J"'), c('60 min', '"1hr" (W26)'), c('Any day, any time', ''), c('2 h', 'none written: default')]),
+        row('W46', '', 'Shawn Duguay', '(506) 555-0140', [c('Marc or Dave', '"Marc or Dave"'), c('60 min', '"1hr"'), c('Any day, any time', ''), c('2 h', 'none written: default')]),
+        row('W53', 'merged W22', 'Luc Bernard', '(506) 555-0121', [c('Any therapist', '"any" (W22)'), c('60 or 90 min', '"60 ok", "90 if poss"'), c('Not Sat · from Oct 10', '"not Sat", "back now"'), c('2 h', 'none written: default')]),
+        row('W55', 'merged W27', 'Sylvie Bordage', '(506) 555-0126', [c('Rachel or Amira', '"Rachel or Amira"'), c('60 min', '"60" (W27)'), c('Any day, any time', ''), c('The day before', '"next day only" (W27)')]),
+        row('W57', '', 'Lise Gautreau', '(506) 555-0144', [c('Dave or Josée', '"Dave or Jos"'), c('60 min', 'none written: default'), c('Afternoons (start 12:00 or later)', '"afternoons"'), c('2 h', '"can come in 2 hrs"')])
+      ],
+      stale: [
+        { who: 'W05, W07 Lynn Savoie', why: 'No call-back in over two months (last line Aug 11).' },
+        { who: 'W15 Mel Arsenault', why: 'Booked since: got a late opening on Sep 24, as Melanie Arsenault.' },
+        { who: 'W23 Dan Robichaud', why: 'Moved away ("moved to Hfx??").' },
+        { who: 'W13, W50 Kim Belliveau', why: 'Number not in service ("# not in service??").' },
+        { who: 'W46 Shawn Duguay (example)', why: 'Booked through the tool: O39, Thu Oct 15, 2:00 PM. Kept on file; suggested again only if he adds a new line.' }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

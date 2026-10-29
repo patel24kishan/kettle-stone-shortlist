@@ -1,0 +1,257 @@
+/* B5 (reference/mockups/B5-Admin-waitlist.dc.html). */
+.fileRow {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+  gap: 18px;
+  align-items: center;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--border-soft);
+}
+.fileLabel {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.fileLabel label {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text);
+}
+.fileHint {
+  font-size: 14px;
+  color: var(--text-3);
+}
+.filePick {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  min-width: 0;
+}
+.fileInput {
+  font: inherit;
+  font-size: 15px;
+  min-height: 44px;
+  max-width: 100%;
+}
+.fileInput::file-selector-button {
+  min-height: 44px;
+  margin-right: 12px;
+  padding: 0 16px;
+  font: inherit;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--accent-hover);
+  background: var(--card);
+  border: 1px solid var(--border-input);
+  border-radius: var(--radius-control);
+  cursor: pointer;
+}
+.fileInput::file-selector-button:hover {
+  background: var(--accent-tint);
+}
+.fileName {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  color: var(--text-2);
+  overflow-wrap: anywhere;
+}
+.fileCheck {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  color: var(--ok);
+}
+.fileCheckBad {
+  color: var(--error-text);
+  font-weight: 500;
+}
+.fileCheckNone {
+  color: var(--text-3);
+}
+.importActions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 22px;
+}
+.runDate {
+  width: 200px;
+}
+.busyText {
+  font-size: 15px;
+  color: var(--text-3);
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.meta {
+  margin: 0;
+  font-size: 15px;
+  color: var(--text-2);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 18px;
+}
+.meta strong {
+  font-weight: 600;
+  color: var(--text);
+}
+.tiles {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  margin: 0;
+}
+.tile {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  padding: 16px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.tile dt {
+  font-size: 14px;
+  color: var(--text-3);
+}
+.tile dd {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--text);
+}
+.tileAccent dd {
+  color: var(--accent);
+}
+
+.tableWrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.table {
+  width: 100%;
+  min-width: 1100px;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+.table caption {
+  text-align: left;
+  padding: 14px 16px 4px;
+  font-size: 15px;
+  color: var(--text-3);
+}
+.table thead tr {
+  text-align: left;
+  background: var(--head-bg);
+  color: var(--text-2);
+}
+.table th {
+  padding: 12px 14px;
+  font-weight: 600;
+  border-bottom: 1px solid #e5e7eb;
+}
+.table td {
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--border-soft);
+  vertical-align: top;
+}
+.table tbody tr:last-child td {
+  border-bottom: 0;
+}
+.lineCell {
+  font-weight: 600;
+  color: var(--text);
+  white-space: nowrap;
+}
+.merged {
+  font-weight: 400;
+  font-size: 13px;
+  color: var(--text-3);
+}
+.personName {
+  font-weight: 600;
+  color: var(--text);
+}
+.phone {
+  color: var(--accent);
+  white-space: nowrap;
+}
+.value {
+  color: var(--text);
+}
+.source {
+  font-size: 13px;
+  color: var(--text-3);
+}
+
+.notOffered {
+  padding: 18px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.notOffered h3 {
+  font-size: 18px;
+}
+.notOffered ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.notOffered li {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border-soft);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+}
+.who {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text);
+  min-width: 220px;
+}
+.why {
+  font-size: 15px;
+  color: var(--text-2);
+}
+.footnote {
+  font-size: 14px;
+  color: var(--text-3);
+}
+.empty {
+  padding: 22px 24px;
+  font-size: 16px;
+  color: var(--text-2);
+}
+
+@media (max-width: 900px) {
+  .fileRow {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 10px;
+  }
+  .tiles {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+}
+@media (max-width: 760px) {
+  .tile dd {
+    font-size: 24px;
+  }
+  .who {
+    min-width: 0;
+  }
+  .notOffered {
+    padding: 16px;
+  }
+}

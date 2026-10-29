@@ -1,0 +1,124 @@
+/* Screen 4 "Week schedule" (reference/mockups/A4-Week-schedule.dc.html). Block colours come from the status table in
+   src/lib/week/layout.ts and are set inline; everything else is here. */
+.head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+.title {
+  font-size: 28px;
+}
+.summary {
+  font-size: 17px;
+  color: var(--text-3);
+}
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.tab {
+  min-height: 52px;
+  padding: 0 20px;
+  border: 1px solid var(--border-input);
+  border-radius: var(--radius-control);
+  background: var(--card);
+  font: inherit;
+  font-size: 17px;
+  color: var(--text-body);
+  cursor: pointer;
+}
+.tab:hover {
+  border-color: var(--accent);
+}
+.tabOn,
+.tabOn:hover {
+  border-color: var(--accent);
+  background: var(--accent);
+  font-weight: 600;
+  color: #ffffff;
+}
+.legend {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 22px;
+  font-size: 16px;
+  color: var(--text-2);
+}
+.legend li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.swatch {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  flex: none;
+}
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  overflow-x: auto;
+}
+.grid {
+  display: grid;
+}
+.corner {
+  height: 56px;
+  border-bottom: 1px solid #e5e7eb;
+}
+.colHead {
+  height: 56px;
+  border-bottom: 1px solid #e5e7eb;
+  border-left: 1px solid var(--border-soft);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 6px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text);
+}
+.hours {
+  position: relative;
+}
+.hour {
+  position: absolute;
+  right: 10px;
+  font-size: 14px;
+  color: var(--text-3);
+  white-space: nowrap;
+}
+.col {
+  position: relative;
+  border-left: 1px solid var(--border-soft);
+  background-image: repeating-linear-gradient(to bottom, #eef0f2 0, #eef0f2 1px, transparent 1px, transparent 88px);
+}
+.block {
+  position: absolute;
+  left: 6px;
+  right: 6px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.client {
+  font-size: 15px;
+  font-weight: 600;
+}
+.when {
+  font-size: 13px;
+}
+.note {
+  margin: 0;
+  font-size: 15px;
+  color: var(--text-3);
+}

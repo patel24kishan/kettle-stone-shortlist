@@ -1,0 +1,3980 @@
+{
+  "132ab476309091b107271466ad47e2d5d582a063d161154d70b8f22bae7ead40": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": null,
+        "source": []
+      },
+      "therapistsExcluded": {
+        "value": [
+          "Dave Melanson"
+        ],
+        "source": [
+          {
+            "lineId": "W54",
+            "text": "any but Dave"
+          }
+        ]
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            90
+          ],
+          "only": true
+        },
+        "source": [
+          {
+            "lineId": "W54",
+            "text": "90"
+          }
+        ]
+      },
+      "daysAllowed": {
+        "value": null,
+        "source": []
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": "16:00",
+        "source": [
+          {
+            "lineId": "W54",
+            "text": "after 4"
+          }
+        ]
+      },
+      "startLatest": {
+        "value": null,
+        "source": []
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 2,
+        "source": []
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "161243825dc124d6cba51719da9e177e46e94ccd92d108d1c0ad269983b1a162": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": null,
+        "source": [
+          {
+            "lineId": "W23",
+            "text": "any"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            60
+          ],
+          "only": false
+        },
+        "source": [
+          {
+            "lineId": "W23",
+            "text": "60"
+          }
+        ]
+      },
+      "daysAllowed": {
+        "value": [
+          "Sat"
+        ],
+        "source": [
+          {
+            "lineId": "W23",
+            "text": "Sat only"
+          }
+        ]
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": null,
+        "source": []
+      },
+      "startLatest": {
+        "value": null,
+        "source": []
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 2,
+        "source": []
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": "moved",
+        "source": [
+          {
+            "lineId": "W23",
+            "text": "moved to Hfx"
+          }
+        ]
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "24a845ee1cee8bdba1717a2891d4c00f608d2bebfd5595a8f5fb8ecb4783ae36": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": [
+          "Josée Landry",
+          "Rachel Thibodeau"
+        ],
+        "source": [
+          {
+            "lineId": "W09",
+            "text": "Josée or Rachel"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            60,
+            90
+          ],
+          "only": false
+        },
+        "source": [
+          {
+            "lineId": "W09",
+            "text": "90"
+          },
+          {
+            "lineId": "W31",
+            "text": "60 ok too"
+          }
+        ]
+      },
+      "daysAllowed": {
+        "value": null,
+        "source": []
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": null,
+        "source": []
+      },
+      "startLatest": {
+        "value": null,
+        "source": []
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 2,
+        "source": []
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "253c2c5a129aee82e16d51a07e8f1068ce6680d890b116908b001d353f1b7384": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": [
+          "Rachel Thibodeau",
+          "Amira Haddad"
+        ],
+        "source": [
+          {
+            "lineId": "W55",
+            "text": "Rachel or Amira"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            60
+          ],
+          "only": false
+        },
+        "source": [
+          {
+            "lineId": "W27",
+            "text": "60"
+          }
+        ]
+      },
+      "daysAllowed": {
+        "value": null,
+        "source": []
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": null,
+        "source": []
+      },
+      "startLatest": {
+        "value": null,
+        "source": []
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 2,
+        "source": []
+      },
+      "nextDayOnly": {
+        "value": true,
+        "source": [
+          {
+            "lineId": "W27",
+            "text": "next day only"
+          }
+        ]
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "2cf829be7de6e5fe25dc506669193bf59bfca71b803160364f5d55a99d80f3f6": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": null,
+        "source": [
+          {
+            "lineId": "W11",
+            "text": "any"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            60
+          ],
+          "only": false
+        },
+        "source": [
+          {
+            "lineId": "W11",
+            "text": "60"
+          }
+        ]
+      },
+      "daysAllowed": {
+        "value": null,
+        "source": []
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": null,
+        "source": []
+      },
+      "startLatest": {
+        "value": null,
+        "source": []
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 2,
+        "source": []
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": "2026-09-30",
+        "source": [
+          {
+            "lineId": "W11",
+            "text": "only til end of Sept"
+          }
+        ]
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "36cb6a8ed7d7909e3651437ad4892625c2ab33446985551f0cb0f5e561b1d894": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": null,
+        "source": [
+          {
+            "lineId": "W22",
+            "text": "any"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            60,
+            90
+          ],
+          "only": false
+        },
+        "source": [
+          {
+            "lineId": "W53",
+            "text": "wants 90 if poss, 60 ok"
+          }
+        ]
+      },
+      "daysAllowed": {
+        "value": null,
+        "source": []
+      },
+      "daysExcluded": {
+        "value": [
+          "Sat"
+        ],
+        "source": [
+          {
+            "lineId": "W53",
+            "text": "not Sat"
+          }
+        ]
+      },
+      "startEarliest": {
+        "value": null,
+        "source": []
+      },
+      "startLatest": {
+        "value": null,
+        "source": []
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 2,
+        "source": []
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": "2026-10-10",
+        "source": [
+          {
+            "lineId": "W22",
+            "text": "away hunting til Oct 9"
+          },
+          {
+            "lineId": "W53",
+            "text": "now"
+          }
+        ]
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "42bf5eb89487b2b87ab8e789df21ab3d347f0797de2732b997179d1563d903fd": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": null,
+        "source": [
+          {
+            "lineId": "W08",
+            "text": "any"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            30
+          ],
+          "only": false
+        },
+        "source": [
+          {
+            "lineId": "W08",
+            "text": "30"
+          }
+        ]
+      },
+      "daysAllowed": {
+        "value": null,
+        "source": []
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": null,
+        "source": []
+      },
+      "startLatest": {
+        "value": null,
+        "source": []
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 2,
+        "source": []
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": [
+        {
+          "lineId": "W08",
+          "text": "lunch",
+          "affects": [
+            "time"
+          ]
+        }
+      ]
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "46dd1c0e4f1b6694e757c7da8c8b438b099fd2fd8b5bc467362062fa0bf541ce": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": null,
+        "source": [
+          {
+            "lineId": "W37",
+            "text": "any"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            60
+          ],
+          "only": false
+        },
+        "source": []
+      },
+      "daysAllowed": {
+        "value": [
+          "Fri"
+        ],
+        "source": [
+          {
+            "lineId": "W37",
+            "text": "Fri only"
+          }
+        ]
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": "15:00",
+        "source": [
+          {
+            "lineId": "W37",
+            "text": "after 3"
+          }
+        ]
+      },
+      "startLatest": {
+        "value": null,
+        "source": []
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 2,
+        "source": []
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "490db8b41baa4a83ff5115786d60deb3b87e906901bbe1c6d4a503e9336d3823": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": null,
+        "source": []
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            60
+          ],
+          "only": false
+        },
+        "source": []
+      },
+      "daysAllowed": {
+        "value": null,
+        "source": []
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": null,
+        "source": []
+      },
+      "startLatest": {
+        "value": null,
+        "source": []
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 3,
+        "source": [
+          {
+            "lineId": "W40",
+            "text": "needs 2-3 hrs"
+          }
+        ]
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": true,
+        "source": [
+          {
+            "lineId": "W40",
+            "text": ""
+          }
+        ]
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "4dfebf15f11a27023b1f98ae196404773a4630009dda9faf935256c82c1fcfa4": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": [
+          "Marc Cormier",
+          "Dave Melanson"
+        ],
+        "source": [
+          {
+            "lineId": "W46",
+            "text": "Marc or Dave"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            60
+          ],
+          "only": false
+        },
+        "source": [
+          {
+            "lineId": "W46",
+            "text": "1hr"
+          }
+        ]
+      },
+      "daysAllowed": {
+        "value": null,
+        "source": []
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": null,
+        "source": []
+      },
+      "startLatest": {
+        "value": null,
+        "source": []
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 2,
+        "source": []
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "524f00b79d8dac72184812aa4aa35198a1535a698f07dfbfe03ae547632f2ec8": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": null,
+        "source": [
+          {
+            "lineId": "W19",
+            "text": "any"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            60
+          ],
+          "only": false
+        },
+        "source": [
+          {
+            "lineId": "W19",
+            "text": "60"
+          }
+        ]
+      },
+      "daysAllowed": {
+        "value": null,
+        "source": []
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": null,
+        "source": []
+      },
+      "startLatest": {
+        "value": "11:59",
+        "source": [
+          {
+            "lineId": "W35",
+            "text": "mornings still"
+          }
+        ]
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 2,
+        "source": []
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "54bcaa89d502677fa28f7515ffd320f5e1cecd26c3eab8070a78bf847246c781": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": [
+          "Marc Cormier"
+        ],
+        "source": [
+          {
+            "lineId": "W18",
+            "text": "Marc only"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            60
+          ],
+          "only": false
+        },
+        "source": []
+      },
+      "daysAllowed": {
+        "value": null,
+        "source": []
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": null,
+        "source": []
+      },
+      "startLatest": {
+        "value": "11:59",
+        "source": [
+          {
+            "lineId": "W18",
+            "text": "AM"
+          }
+        ]
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 0.5,
+        "source": [
+          {
+            "lineId": "W18",
+            "text": "can come in 30 min"
+          }
+        ]
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "59d43989b4f9fffc30c53d2ef6d34cdf35d481583b45137a44c33dada4542a76": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": null,
+        "source": []
+      },
+      "therapistsExcluded": {
+        "value": [
+          "Dave Melanson"
+        ],
+        "source": [
+          {
+            "lineId": "W12",
+            "text": "anyone but Dave"
+          }
+        ]
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            60
+          ],
+          "only": false
+        },
+        "source": [
+          {
+            "lineId": "W12",
+            "text": "1hr"
+          }
+        ]
+      },
+      "daysAllowed": {
+        "value": null,
+        "source": []
+      },
+      "daysExcluded": {
+        "value": [
+          "Thu"
+        ],
+        "source": [
+          {
+            "lineId": "W12",
+            "text": "not Thurs"
+          }
+        ]
+      },
+      "startEarliest": {
+        "value": "15:30",
+        "source": [
+          {
+            "lineId": "W12",
+            "text": "after 3:30"
+          }
+        ]
+      },
+      "startLatest": {
+        "value": null,
+        "source": []
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 2,
+        "source": []
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "65b4bdb80fd64b3f6b14dd955c28ffad4219d0a3b91879de363819387091dfdb": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": null,
+        "source": [
+          {
+            "lineId": "W02",
+            "text": "any"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            60
+          ],
+          "only": false
+        },
+        "source": [
+          {
+            "lineId": "W02",
+            "text": "1hr"
+          }
+        ]
+      },
+      "daysAllowed": {
+        "value": [
+          "Mon",
+          "Wed"
+        ],
+        "source": [
+          {
+            "lineId": "W51",
+            "text": "Mon or Wed AM only now"
+          }
+        ]
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": null,
+        "source": []
+      },
+      "startLatest": {
+        "value": "11:59",
+        "source": [
+          {
+            "lineId": "W51",
+            "text": "AM only now"
+          }
+        ]
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 2,
+        "source": []
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "6a81fcddafcf1993c0fc3aeeb68981a5931397fe2a3c0ebb1a6fb363729f0628": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": null,
+        "source": [
+          {
+            "lineId": "W01",
+            "text": "any"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            90
+          ],
+          "only": true
+        },
+        "source": [
+          {
+            "lineId": "W01",
+            "text": "90"
+          }
+        ]
+      },
+      "daysAllowed": {
+        "value": null,
+        "source": []
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": null,
+        "source": []
+      },
+      "startLatest": {
+        "value": null,
+        "source": []
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 2,
+        "source": []
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "73cbac424a0ed59bea35b0f92e9c5eaf266aee2bfd31cd68e73d0246fcac4f68": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": [
+          "Dave Melanson"
+        ],
+        "source": [
+          {
+            "lineId": "W58",
+            "text": "Dave"
+          },
+          {
+            "lineId": "W41",
+            "text": "Dave only"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            90
+          ],
+          "only": true
+        },
+        "source": [
+          {
+            "lineId": "W58",
+            "text": "90"
+          },
+          {
+            "lineId": "W41",
+            "text": "90"
+          }
+        ]
+      },
+      "daysAllowed": {
+        "value": [
+          "Tue",
+          "Fri"
+        ],
+        "source": [
+          {
+            "lineId": "W58",
+            "text": "Tues or Fri only now"
+          }
+        ]
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": null,
+        "source": []
+      },
+      "startLatest": {
+        "value": null,
+        "source": []
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 2,
+        "source": []
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "78048bf78551acd040371c1cf446fb68236b44f9edcafff9a03ed951b8d1e6eb": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": [
+          "Dave Melanson",
+          "Josée Landry"
+        ],
+        "source": [
+          {
+            "lineId": "W57",
+            "text": "Dave or Jos"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            60
+          ],
+          "only": false
+        },
+        "source": []
+      },
+      "daysAllowed": {
+        "value": null,
+        "source": []
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": "12:00",
+        "source": [
+          {
+            "lineId": "W57",
+            "text": "afternoons"
+          }
+        ]
+      },
+      "startLatest": {
+        "value": null,
+        "source": []
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 2,
+        "source": [
+          {
+            "lineId": "W57",
+            "text": "can come in 2 hrs"
+          }
+        ]
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "7dffc174c141bbfacb0390a1a0c202f203f34fd8a86dce0b5869191066ee2d1b": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": [
+          "Kelsey Babineau"
+        ],
+        "source": [
+          {
+            "lineId": "W25",
+            "text": "Kelsey only"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            60
+          ],
+          "only": false
+        },
+        "source": [
+          {
+            "lineId": "W25",
+            "text": "1hr"
+          }
+        ]
+      },
+      "daysAllowed": {
+        "value": [
+          "Tue"
+        ],
+        "source": [
+          {
+            "lineId": "W25",
+            "text": "Tues"
+          }
+        ]
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": null,
+        "source": []
+      },
+      "startLatest": {
+        "value": null,
+        "source": []
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 2,
+        "source": []
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "7f400a7e80c1ec9e788269413908e44f3e1e5fbdca37308cb7a4d903fa3f67f8": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": [
+          "Josée Landry",
+          "Amira Haddad"
+        ],
+        "source": [
+          {
+            "lineId": "W45",
+            "text": "Josée or Amira"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            60
+          ],
+          "only": false
+        },
+        "source": [
+          {
+            "lineId": "W45",
+            "text": "60"
+          }
+        ]
+      },
+      "daysAllowed": {
+        "value": null,
+        "source": []
+      },
+      "daysExcluded": {
+        "value": [
+          "Fri"
+        ],
+        "source": [
+          {
+            "lineId": "W45",
+            "text": "not Fri"
+          }
+        ]
+      },
+      "startEarliest": {
+        "value": null,
+        "source": []
+      },
+      "startLatest": {
+        "value": null,
+        "source": []
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 2,
+        "source": []
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "8397ecb295aa0a4156aba9a7ab01e7d7bb6895b62a16f798481dbcd725b4dca5": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": [
+          "Dave Melanson"
+        ],
+        "source": [
+          {
+            "lineId": "W03",
+            "text": "Dave only"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            60
+          ],
+          "only": false
+        },
+        "source": []
+      },
+      "daysAllowed": {
+        "value": null,
+        "source": []
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": "17:00",
+        "source": [
+          {
+            "lineId": "W03",
+            "text": "after 5"
+          }
+        ]
+      },
+      "startLatest": {
+        "value": null,
+        "source": []
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 2,
+        "source": []
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "87a0de14cc1e9da0309ed7d65117fc0c13e430c05ce4da0e70ae466f75c5ca4c": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": [
+          "Amira Haddad"
+        ],
+        "source": [
+          {
+            "lineId": "W56",
+            "text": "still Amira"
+          },
+          {
+            "lineId": "W06",
+            "text": "Amira"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            60
+          ],
+          "only": false
+        },
+        "source": [
+          {
+            "lineId": "W06",
+            "text": "1hr"
+          }
+        ]
+      },
+      "daysAllowed": {
+        "value": [
+          "Mon",
+          "Tue"
+        ],
+        "source": [
+          {
+            "lineId": "W56",
+            "text": "Mon or Tues"
+          }
+        ]
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": null,
+        "source": []
+      },
+      "startLatest": {
+        "value": null,
+        "source": []
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 2,
+        "source": []
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "8e033013e964dee9bc7a95c0a5c4e755df450ae29cc4fe0fe145e11036b68be5": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": [
+          "Josée Landry"
+        ],
+        "source": [
+          {
+            "lineId": "W05",
+            "text": "J only"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            45,
+            60
+          ],
+          "only": false
+        },
+        "source": [
+          {
+            "lineId": "W07",
+            "text": "45 or 60"
+          }
+        ]
+      },
+      "daysAllowed": {
+        "value": null,
+        "source": []
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": null,
+        "source": []
+      },
+      "startLatest": {
+        "value": null,
+        "source": []
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 2,
+        "source": []
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "90389af59426c111273dd9b8c8a929e3b87c1608495e4da44b83f5afb0ec65d7": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": [
+          "Josée Landry",
+          "Amira Haddad",
+          "Kelsey Babineau",
+          "Rachel Thibodeau"
+        ],
+        "source": [
+          {
+            "lineId": "W10",
+            "text": "female"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            60
+          ],
+          "only": false
+        },
+        "source": [
+          {
+            "lineId": "W10",
+            "text": "60"
+          }
+        ]
+      },
+      "daysAllowed": {
+        "value": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri"
+        ],
+        "source": [
+          {
+            "lineId": "W10",
+            "text": "wkdays"
+          }
+        ]
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": null,
+        "source": []
+      },
+      "startLatest": {
+        "value": null,
+        "source": []
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 2,
+        "source": []
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": true,
+        "source": [
+          {
+            "lineId": "W10",
+            "text": ""
+          }
+        ]
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "950320aa5513b7b31b2167c80b8ab8660bf734db66db8242f6420501c96b7036": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": [
+          "Josée Landry"
+        ],
+        "source": [
+          {
+            "lineId": "W14",
+            "text": "Josée only"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            45,
+            60
+          ],
+          "only": false
+        },
+        "source": [
+          {
+            "lineId": "W14",
+            "text": "45 or 60"
+          }
+        ]
+      },
+      "daysAllowed": {
+        "value": null,
+        "source": []
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": null,
+        "source": []
+      },
+      "startLatest": {
+        "value": null,
+        "source": []
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 3,
+        "source": [
+          {
+            "lineId": "W14",
+            "text": "needs 3h"
+          }
+        ]
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "988b1bc0ba1fbe3d5d1622e4cafdd112b70cfde7d8f650a3df6ae9024a90c892": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": [
+          "Josée Landry",
+          "Amira Haddad",
+          "Kelsey Babineau",
+          "Rachel Thibodeau"
+        ],
+        "source": [
+          {
+            "lineId": "W49",
+            "text": "any female"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            45
+          ],
+          "only": false
+        },
+        "source": [
+          {
+            "lineId": "W49",
+            "text": "45"
+          }
+        ]
+      },
+      "daysAllowed": {
+        "value": [
+          "Wed",
+          "Fri"
+        ],
+        "source": [
+          {
+            "lineId": "W49",
+            "text": "Wed or Fri"
+          }
+        ]
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": null,
+        "source": []
+      },
+      "startLatest": {
+        "value": null,
+        "source": []
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 4,
+        "source": [
+          {
+            "lineId": "W49",
+            "text": "needs 4 hrs"
+          }
+        ]
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "a2f25e1d677182a6fe0e64b72891bc24ac58ae7db6ce659407eac1294c81aecf": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": [
+          "Josée Landry",
+          "Amira Haddad",
+          "Kelsey Babineau",
+          "Rachel Thibodeau"
+        ],
+        "source": [
+          {
+            "lineId": "W17",
+            "text": "any female"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            90
+          ],
+          "only": true
+        },
+        "source": [
+          {
+            "lineId": "W17",
+            "text": "90"
+          }
+        ]
+      },
+      "daysAllowed": {
+        "value": null,
+        "source": []
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": null,
+        "source": []
+      },
+      "startLatest": {
+        "value": null,
+        "source": []
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 2,
+        "source": []
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": "2026-10-02",
+        "source": [
+          {
+            "lineId": "W17",
+            "text": "before wedding Oct 3"
+          }
+        ]
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "a7f5302736150077208c788121c0477282269af401833b3fec8fc0f0f68c2960": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": null,
+        "source": []
+      },
+      "therapistsExcluded": {
+        "value": [
+          "Dave Melanson"
+        ],
+        "source": [
+          {
+            "lineId": "W33",
+            "text": "AB Dave"
+          }
+        ]
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            60
+          ],
+          "only": false
+        },
+        "source": [
+          {
+            "lineId": "W33",
+            "text": "1hr"
+          }
+        ]
+      },
+      "daysAllowed": {
+        "value": null,
+        "source": []
+      },
+      "daysExcluded": {
+        "value": [
+          "Mon"
+        ],
+        "source": [
+          {
+            "lineId": "W33",
+            "text": "not Mon"
+          }
+        ]
+      },
+      "startEarliest": {
+        "value": null,
+        "source": []
+      },
+      "startLatest": {
+        "value": "11:59",
+        "source": [
+          {
+            "lineId": "W33",
+            "text": "AM"
+          }
+        ]
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 2,
+        "source": []
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "a9b322d92dfa1fe59cad092eeef5dbc71e4dc46d290bf65a4a19703b79dd58d0": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": [
+          "Dave Melanson"
+        ],
+        "source": [
+          {
+            "lineId": "W47",
+            "text": "Dave"
+          },
+          {
+            "lineId": "W04",
+            "text": "Dave only"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            60,
+            90
+          ],
+          "only": false
+        },
+        "source": [
+          {
+            "lineId": "W47",
+            "text": "90 or 60 fine"
+          }
+        ]
+      },
+      "daysAllowed": {
+        "value": null,
+        "source": []
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": "16:00",
+        "source": [
+          {
+            "lineId": "W47",
+            "text": "after 4"
+          }
+        ]
+      },
+      "startLatest": {
+        "value": null,
+        "source": []
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 2,
+        "source": []
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "acb9d9d5374d317cc61642921236a422238a83b74867ec1cdfd40804f388ca35": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": [
+          "Josée Landry",
+          "Amira Haddad",
+          "Kelsey Babineau",
+          "Rachel Thibodeau"
+        ],
+        "source": [
+          {
+            "lineId": "W13",
+            "text": "female only"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            60
+          ],
+          "only": false
+        },
+        "source": [
+          {
+            "lineId": "W13",
+            "text": "60"
+          }
+        ]
+      },
+      "daysAllowed": {
+        "value": null,
+        "source": []
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": "16:00",
+        "source": [
+          {
+            "lineId": "W13",
+            "text": "after 4"
+          }
+        ]
+      },
+      "startLatest": {
+        "value": null,
+        "source": []
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 2,
+        "source": []
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": "not in service",
+        "source": [
+          {
+            "lineId": "W50",
+            "text": "# not in service"
+          }
+        ]
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "b46e12414e1afa6e828560047de17f1cf5b99d08ad79432c87d9c7b048f0356f": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": [
+          "Kelsey Babineau",
+          "Josée Landry"
+        ],
+        "source": [
+          {
+            "lineId": "W52",
+            "text": "Kelsey or Josée"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            60
+          ],
+          "only": false
+        },
+        "source": [
+          {
+            "lineId": "W52",
+            "text": "60"
+          }
+        ]
+      },
+      "daysAllowed": {
+        "value": [
+          "Wed",
+          "Fri"
+        ],
+        "source": [
+          {
+            "lineId": "W52",
+            "text": "Wed/Fri"
+          }
+        ]
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": null,
+        "source": []
+      },
+      "startLatest": {
+        "value": null,
+        "source": []
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 2,
+        "source": []
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "b980890bb9fc18fc426fcc475fcb98389966b82f5d0feb5abcf34f3787581126": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": null,
+        "source": [
+          {
+            "lineId": "W44",
+            "text": "any"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            60
+          ],
+          "only": false
+        },
+        "source": [
+          {
+            "lineId": "W44",
+            "text": "60"
+          }
+        ]
+      },
+      "daysAllowed": {
+        "value": null,
+        "source": []
+      },
+      "daysExcluded": {
+        "value": [
+          "Thu"
+        ],
+        "source": [
+          {
+            "lineId": "W60",
+            "text": "not Thurs"
+          }
+        ]
+      },
+      "startEarliest": {
+        "value": null,
+        "source": []
+      },
+      "startLatest": {
+        "value": "11:59",
+        "source": [
+          {
+            "lineId": "W44",
+            "text": "AM"
+          }
+        ]
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 2,
+        "source": []
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "baf7856df59fa921fb3a1bf52ec6f081620fb97ca17ae056abe5d9df6f01bd9d": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": null,
+        "source": [
+          {
+            "lineId": "W28",
+            "text": "any"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            90
+          ],
+          "only": true
+        },
+        "source": [
+          {
+            "lineId": "W28",
+            "text": "90 only"
+          }
+        ]
+      },
+      "daysAllowed": {
+        "value": [
+          "Sat"
+        ],
+        "source": [
+          {
+            "lineId": "W28",
+            "text": "Sat"
+          }
+        ]
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": null,
+        "source": []
+      },
+      "startLatest": {
+        "value": null,
+        "source": []
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 2,
+        "source": []
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "bb4c684b03a296931e8e42ba9c3f13f6dc83271f048d10d12bd766dc5178103e": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": null,
+        "source": [
+          {
+            "lineId": "W15",
+            "text": "any"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            60
+          ],
+          "only": false
+        },
+        "source": [
+          {
+            "lineId": "W15",
+            "text": "60"
+          }
+        ]
+      },
+      "daysAllowed": {
+        "value": null,
+        "source": []
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": null,
+        "source": []
+      },
+      "startLatest": {
+        "value": null,
+        "source": []
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 2,
+        "source": []
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "bba92ec4ba153eaac0436166b980255dffc20ee8db1902204bd4a08f297617e8": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": [
+          "Amira Haddad"
+        ],
+        "source": [
+          {
+            "lineId": "W36",
+            "text": "Amira only"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            45
+          ],
+          "only": false
+        },
+        "source": [
+          {
+            "lineId": "W36",
+            "text": "45"
+          }
+        ]
+      },
+      "daysAllowed": {
+        "value": null,
+        "source": []
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": "10:00",
+        "source": [
+          {
+            "lineId": "W36",
+            "text": "not before 10"
+          }
+        ]
+      },
+      "startLatest": {
+        "value": null,
+        "source": []
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 2,
+        "source": []
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "c041582e9f7627699fd4f85f3135b410cae33a03a3bec44389870585d2129a92": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": [
+          "Amira Haddad"
+        ],
+        "source": [
+          {
+            "lineId": "W29",
+            "text": "Amira"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            45
+          ],
+          "only": false
+        },
+        "source": [
+          {
+            "lineId": "W29",
+            "text": "45"
+          }
+        ]
+      },
+      "daysAllowed": {
+        "value": null,
+        "source": []
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": null,
+        "source": []
+      },
+      "startLatest": {
+        "value": null,
+        "source": []
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 2,
+        "source": []
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": "going elsewhere",
+        "source": [
+          {
+            "lineId": "W29",
+            "text": "going to someone in Dieppe now, take off"
+          }
+        ]
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "c8567f751778d31d9e117fa46da1c711a10acb518f1ba8508520baaf34c405ea": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": null,
+        "source": [
+          {
+            "lineId": "W24",
+            "text": "any"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            60
+          ],
+          "only": false
+        },
+        "source": []
+      },
+      "daysAllowed": {
+        "value": null,
+        "source": []
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": "17:00",
+        "source": [
+          {
+            "lineId": "W24",
+            "text": "after 5"
+          }
+        ]
+      },
+      "startLatest": {
+        "value": null,
+        "source": []
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 2,
+        "source": []
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "cc74450a7b5af4dd5be283b2e1ebd96de47ede2661b74494bb5fb108394601b4": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": null,
+        "source": [
+          {
+            "lineId": "W39",
+            "text": "any"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            30,
+            45
+          ],
+          "only": false
+        },
+        "source": [
+          {
+            "lineId": "W39",
+            "text": "30 or 45"
+          }
+        ]
+      },
+      "daysAllowed": {
+        "value": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri"
+        ],
+        "source": [
+          {
+            "lineId": "W39",
+            "text": "on his lunch"
+          }
+        ]
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": "12:00",
+        "source": [
+          {
+            "lineId": "W39",
+            "text": "on his lunch 12-1 only"
+          }
+        ]
+      },
+      "startLatest": {
+        "value": "12:30",
+        "source": [
+          {
+            "lineId": "W39",
+            "text": "on his lunch 12-1 only"
+          }
+        ]
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 0.5,
+        "source": [
+          {
+            "lineId": "W39",
+            "text": "30 min notice ok"
+          }
+        ]
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "d1780cb6c40061478e6b5f11cc2d54c10d6464072bb810dccaabdc3bf178ccf5": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": null,
+        "source": [
+          {
+            "lineId": "W32",
+            "text": "any"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            60
+          ],
+          "only": false
+        },
+        "source": []
+      },
+      "daysAllowed": {
+        "value": null,
+        "source": []
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": "16:00",
+        "source": [
+          {
+            "lineId": "W32",
+            "text": "after 4"
+          }
+        ]
+      },
+      "startLatest": {
+        "value": null,
+        "source": []
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 2,
+        "source": []
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": "2026-10-10",
+        "source": [
+          {
+            "lineId": "W32",
+            "text": "here til Oct 10"
+          }
+        ]
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "d344bdf7f07509f71d3a21eebd9c3c3ec2c77b6300a4269babece770957ee0ad": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": null,
+        "source": []
+      },
+      "therapistsExcluded": {
+        "value": [
+          "Marc Cormier"
+        ],
+        "source": [
+          {
+            "lineId": "W21",
+            "text": "not Marc"
+          }
+        ]
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            60
+          ],
+          "only": false
+        },
+        "source": [
+          {
+            "lineId": "W21",
+            "text": "1hr"
+          }
+        ]
+      },
+      "daysAllowed": {
+        "value": null,
+        "source": []
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": null,
+        "source": []
+      },
+      "startLatest": {
+        "value": null,
+        "source": []
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 2,
+        "source": []
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": [
+        {
+          "lineId": "W21",
+          "text": "can come quick",
+          "affects": [
+            "notice"
+          ]
+        }
+      ]
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "e444b3c3ed3b69a6e19989c6ef852b6617491b18f665b41861fdef66e435b69c": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": [
+          "Josée Landry",
+          "Amira Haddad",
+          "Kelsey Babineau",
+          "Rachel Thibodeau"
+        ],
+        "source": [
+          {
+            "lineId": "W20",
+            "text": "female only"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            60
+          ],
+          "only": false
+        },
+        "source": [
+          {
+            "lineId": "W20",
+            "text": "60"
+          }
+        ]
+      },
+      "daysAllowed": {
+        "value": [
+          "Tue",
+          "Thu"
+        ],
+        "source": [
+          {
+            "lineId": "W20",
+            "text": "Tues/Thurs"
+          }
+        ]
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": null,
+        "source": []
+      },
+      "startLatest": {
+        "value": null,
+        "source": []
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 2,
+        "source": []
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "ea3cce4248509bda41fc069c4cd8c04d35dcdbd510c5b63165e5a8a207cb159f": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": null,
+        "source": [
+          {
+            "lineId": "W59",
+            "text": "any"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            45
+          ],
+          "only": false
+        },
+        "source": [
+          {
+            "lineId": "W59",
+            "text": "45"
+          }
+        ]
+      },
+      "daysAllowed": {
+        "value": [
+          "Mon",
+          "Tue"
+        ],
+        "source": [
+          {
+            "lineId": "W59",
+            "text": "Mon/Tues"
+          }
+        ]
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": "17:00",
+        "source": [
+          {
+            "lineId": "W59",
+            "text": "after 5"
+          }
+        ]
+      },
+      "startLatest": {
+        "value": null,
+        "source": []
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 1,
+        "source": [
+          {
+            "lineId": "W59",
+            "text": "can come in an hour"
+          }
+        ]
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "f0de16ee5176bbaf1b46a341fa3be80f959808044f83f5ad69b61ae0708e1379": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": [
+          "Rachel Thibodeau",
+          "Josée Landry"
+        ],
+        "source": [
+          {
+            "lineId": "W42",
+            "text": "R/J"
+          },
+          {
+            "lineId": "W26",
+            "text": "Rachel or Josée"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            60
+          ],
+          "only": false
+        },
+        "source": [
+          {
+            "lineId": "W26",
+            "text": "1hr"
+          }
+        ]
+      },
+      "daysAllowed": {
+        "value": null,
+        "source": []
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": null,
+        "source": []
+      },
+      "startLatest": {
+        "value": null,
+        "source": []
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 2,
+        "source": []
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "f3adf1cc047270bd7b1d094d1efe0b47d1b8fa2c6a81b596a5f0cbc4a378d8d5": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": [
+          "Kelsey Babineau",
+          "Amira Haddad"
+        ],
+        "source": [
+          {
+            "lineId": "W30",
+            "text": "Kelsey or Amira"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            60
+          ],
+          "only": false
+        },
+        "source": [
+          {
+            "lineId": "W30",
+            "text": "1hr"
+          }
+        ]
+      },
+      "daysAllowed": {
+        "value": null,
+        "source": []
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": null,
+        "source": []
+      },
+      "startLatest": {
+        "value": null,
+        "source": []
+      },
+      "endBy": {
+        "value": "14:30",
+        "source": [
+          {
+            "lineId": "W43",
+            "text": "has to be done by 2:30"
+          }
+        ]
+      },
+      "noticeHours": {
+        "value": 2,
+        "source": []
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "fca6517512321f7160ecaa845a24cc1c7d0b2a67916e3dd1a6fbfcd4d647d14f": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": [
+          "Josée Landry",
+          "Rachel Thibodeau"
+        ],
+        "source": [
+          {
+            "lineId": "W48",
+            "text": "Jos or Rachel ok now"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            60
+          ],
+          "only": false
+        },
+        "source": [
+          {
+            "lineId": "W16",
+            "text": "60"
+          }
+        ]
+      },
+      "daysAllowed": {
+        "value": null,
+        "source": []
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": null,
+        "source": []
+      },
+      "startLatest": {
+        "value": "11:59",
+        "source": [
+          {
+            "lineId": "W48",
+            "text": "AM only"
+          }
+        ]
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 2,
+        "source": []
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  },
+  "ff199668f7666d20d6b7c50e303ec41ae8ff7d2c8a212405c801466a89621cf1": {
+    "reading": {
+      "therapistsAllowed": {
+        "value": [
+          "Rachel Thibodeau"
+        ],
+        "source": [
+          {
+            "lineId": "W38",
+            "text": "Rachel only"
+          }
+        ]
+      },
+      "therapistsExcluded": {
+        "value": [],
+        "source": []
+      },
+      "lengths": {
+        "value": {
+          "minutes": [
+            60
+          ],
+          "only": false
+        },
+        "source": [
+          {
+            "lineId": "W38",
+            "text": "1hr"
+          }
+        ]
+      },
+      "daysAllowed": {
+        "value": null,
+        "source": []
+      },
+      "daysExcluded": {
+        "value": [],
+        "source": []
+      },
+      "startEarliest": {
+        "value": "18:00",
+        "source": [
+          {
+            "lineId": "W38",
+            "text": "evenings after 6"
+          }
+        ]
+      },
+      "startLatest": {
+        "value": null,
+        "source": []
+      },
+      "endBy": {
+        "value": null,
+        "source": []
+      },
+      "noticeHours": {
+        "value": 2,
+        "source": []
+      },
+      "nextDayOnly": {
+        "value": false,
+        "source": []
+      },
+      "availableFrom": {
+        "value": null,
+        "source": []
+      },
+      "availableUntil": {
+        "value": null,
+        "source": []
+      },
+      "prenatal": {
+        "value": false,
+        "source": []
+      },
+      "gone": {
+        "value": null,
+        "source": []
+      },
+      "unclear": []
+    },
+    "readAt": "2026-10-29T00:00:00.000Z",
+    "by": "saved",
+    "problems": []
+  }
+}

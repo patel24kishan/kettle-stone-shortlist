@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Week schedule (as-is)</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#0F766E}a:hover{color:#115E59}
+</style>
+</helmet>
+<div style="min-height: 1420px; background: #F4F5F7; font-family: 'IBM Plex Sans', system-ui, sans-serif; color: #1F2937">
+  <header style="background: #FFFFFF; border-bottom: 1px solid #D1D5DB; padding: 8px 30px; min-height: 66px; box-sizing: border-box; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px">
+    <div style="display: flex; align-items: baseline; gap: 12px">
+      <span style="font-size: 18px; font-weight: 600; color: #111827">Kettle &amp; Stone</span>
+      <span style="font-size: 16px; color: #4B5563">Waitlist shortlist</span>
+    </div>
+    <nav aria-label="Screens" style="display: flex; flex-wrap: wrap; gap: 8px">
+      <a href="#" style="min-height: 46px; box-sizing: border-box; padding: 0 18px; display: flex; align-items: center; border-radius: 8px; font-size: 17px; font-weight: 500; text-decoration: none; color: #0F766E">Search one opening</a>
+      <a href="#" style="min-height: 46px; box-sizing: border-box; padding: 0 18px; display: flex; align-items: center; border-radius: 8px; font-size: 17px; font-weight: 500; text-decoration: none; color: #0F766E">Today's openings</a>
+      <a href="#" aria-current="page" style="min-height: 46px; box-sizing: border-box; padding: 0 18px; display: flex; align-items: center; border-radius: 8px; font-size: 17px; font-weight: 600; text-decoration: none; color: #115E59; background: #E6F4F1">Week schedule</a>
+    </nav>
+  </header>
+  <main style="padding: 32px 30px; display: flex; flex-direction: column; gap: 20px; max-width: 1520px">
+    <div style="display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 12px">
+      <h1 style="margin: 0; font-size: 28px; font-weight: 600; color: #111827">Week of Oct 12, 2026</h1>
+      <span style="font-size: 17px; color: #4B5563">25 appointments · 4 late openings · 0 refilled</span>
+    </div>
+    <div role="tablist" aria-label="Day" style="display: flex; flex-wrap: wrap; gap: 10px">
+      <button type="button" role="tab" aria-selected="false" style="min-height: 52px; padding: 0 20px; border: 1px solid #9CA3AF; border-radius: 6px; background: #FFFFFF; font: inherit; font-size: 17px; color: #1F2937">Mon, Oct 12</button>
+      <button type="button" role="tab" aria-selected="false" style="min-height: 52px; padding: 0 20px; border: 1px solid #9CA3AF; border-radius: 6px; background: #FFFFFF; font: inherit; font-size: 17px; color: #1F2937">Tue, Oct 13</button>
+      <button type="button" role="tab" aria-selected="false" style="min-height: 52px; padding: 0 20px; border: 1px solid #9CA3AF; border-radius: 6px; background: #FFFFFF; font: inherit; font-size: 17px; color: #1F2937">Wed, Oct 14</button>
+      <button type="button" role="tab" aria-selected="true" style="min-height: 52px; padding: 0 20px; border: 1px solid #0F766E; border-radius: 6px; background: #0F766E; font: inherit; font-size: 17px; font-weight: 600; color: #FFFFFF">Thu, Oct 15</button>
+      <button type="button" role="tab" aria-selected="false" style="min-height: 52px; padding: 0 20px; border: 1px solid #9CA3AF; border-radius: 6px; background: #FFFFFF; font: inherit; font-size: 17px; color: #1F2937">Fri, Oct 16</button>
+      <button type="button" role="tab" aria-selected="false" style="min-height: 52px; padding: 0 20px; border: 1px solid #9CA3AF; border-radius: 6px; background: #FFFFFF; font: inherit; font-size: 17px; color: #1F2937">Sat, Oct 17</button>
+    </div>
+    <ul aria-label="Legend" style="list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 22px; font-size: 16px; color: #374151">
+      <li style="display: flex; align-items: center; gap: 8px"><span style="width: 20px; height: 20px; box-sizing: border-box; border-radius: 4px; background: #E6F4F1; border: 1px solid #5FA89E"></span>Booked</li>
+      <li style="display: flex; align-items: center; gap: 8px"><span style="width: 20px; height: 20px; box-sizing: border-box; border-radius: 4px; background: #FFFFFF; border: 2px solid #0F766E"></span>Refilled</li>
+      <li style="display: flex; align-items: center; gap: 8px"><span style="width: 20px; height: 20px; box-sizing: border-box; border-radius: 4px; background: #FFF4E6; border: 2px dashed #C2410C"></span>Late cancel, still open</li>
+      <li style="display: flex; align-items: center; gap: 8px"><span style="width: 20px; height: 20px; box-sizing: border-box; border-radius: 4px; background: #FDE2E4; border: 2px dashed #B91C1C"></span>No-show</li>
+      <li style="display: flex; align-items: center; gap: 8px"><span style="width: 20px; height: 20px; box-sizing: border-box; border-radius: 4px; background: #F3F4F6; border: 1px dashed #6B7280"></span>Cancelled 24h+ ahead</li>
+    </ul>
+    <div style="background: #FFFFFF; border: 1px solid #D1D5DB; border-radius: 8px; overflow-x: auto">
+      <div style="min-width: 900px; display: grid; grid-template-columns: 84px repeat(4, minmax(0, 1fr))">
+        <div style="height: 56px; border-bottom: 1px solid #E5E7EB"></div>
+        <sc-for list="{{cols}}" as="c" hint-placeholder-count="4">
+          <div style="height: 56px; border-bottom: 1px solid #E5E7EB; border-left: 1px solid #EEF0F2; display: flex; align-items: center; justify-content: center; font-size: 18px; font-weight: 600; color: #111827">{{c.name}}</div>
+        </sc-for>
+        <div style="position: relative; height: {{gridH}}px">
+          <sc-for list="{{hours}}" as="h" hint-placeholder-count="11">
+            <span style="position: absolute; right: 10px; top: {{h.top}}px; font-size: 14px; color: #4B5563">{{h.label}}</span>
+          </sc-for>
+        </div>
+        <sc-for list="{{cols}}" as="c" hint-placeholder-count="4">
+          <div style="position: relative; height: {{gridH}}px; border-left: 1px solid #EEF0F2; background-image: repeating-linear-gradient(to bottom, #EEF0F2 0, #EEF0F2 1px, transparent 1px, transparent 88px)">
+            <sc-for list="{{c.blocks}}" as="b" hint-placeholder-count="5">
+              <div style="position: absolute; left: 6px; right: 6px; top: {{b.top}}px; height: {{b.h}}px; box-sizing: border-box; padding: 6px 10px; border-radius: 6px; overflow: hidden; background: {{b.bg}}; border: {{b.border}}">
+                <div style="font-size: 15px; font-weight: 600; color: {{b.ink}}">{{b.name}}</div>
+                <div style="font-size: 13px; color: {{b.meta}}">{{b.label}}</div>
+              </div>
+            </sc-for>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+    <p style="margin: 0; font-size: 15px; color: #4B5563">Sample data: the most recent week in the appointments export. Refilled slots show the new client; the original late cancel is hidden behind it.</p>
+  </main>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":1420}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const PX = 88, START = 9 * 60, END = 19 * 60 + 45;
+    const toMin = (t) => { const [h, m] = t.split(':').map(Number); return h * 60 + m; };
+    const fmt = (t) => { let [h, m] = t.split(':').map(Number); const ap = h >= 12 ? 'PM' : 'AM'; h = h % 12 || 12; return h + ':' + String(m).padStart(2, '0') + ' ' + ap; };
+    const look = {
+      Completed: { bg: '#E6F4F1', border: '1px solid #5FA89E', ink: '#111827', meta: '#374151', pre: '' },
+      'Late cancel': { bg: '#FFF4E6', border: '2px dashed #C2410C', ink: '#9A3412', meta: '#7C2D12', pre: 'Late cancel · open · ' },
+      'No-show': { bg: '#FDE2E4', border: '2px dashed #B91C1C', ink: '#991B1B', meta: '#7F1D1D', pre: 'No-show · ' },
+      Cancelled: { bg: '#F3F4F6', border: '1px dashed #6B7280', ink: '#1F2937', meta: '#374151', pre: 'Cancelled ahead · ' }
+    };
+    const rows = [
+      ['Josée Landry','09:00','10:00','Hailey Collin','Completed'],
+      ['Marc Cormier','09:00','10:00','Thérèse White','Completed'],
+      ['Josée Landry','10:15','10:45','Eric Belanger','Cancelled'],
+      ['Dave Melanson','11:00','12:00','Tim Bourgoin','No-show'],
+      ['Josée Landry','11:00','11:45','Martine Beaulieu','Completed'],
+      ['Rachel Thibodeau','11:00','11:30','Hailey Clark','Completed'],
+      ['Marc Cormier','11:15','12:15','Roger Gould','Late cancel'],
+      ['Rachel Thibodeau','11:45','12:30','Joanne Lanteigne','Completed'],
+      ['Josée Landry','12:00','12:45','Courtney Haley','Completed'],
+      ['Dave Melanson','12:15','13:45',"Francine O'Neill",'Completed'],
+      ['Marc Cormier','12:30','14:00','Sylvain Deveau','Completed'],
+      ['Rachel Thibodeau','12:45','13:45','Laurie Wheaton','Completed'],
+      ['Josée Landry','13:00','14:00','Derek Lirette','Completed'],
+      ['Dave Melanson','14:00','15:00','Valérie Paulin','Late cancel'],
+      ['Rachel Thibodeau','14:00','14:30','Rosalie Vautour-Roy','Completed'],
+      ['Josée Landry','14:15','15:15','Megan Collin','Completed'],
+      ['Rachel Thibodeau','14:45','15:45','Courtney Bourgoin','Cancelled'],
+      ['Dave Melanson','15:15','16:15','Jasmine McKay','Completed'],
+      ['Josée Landry','15:30','16:30','Élise Maillet-Roy','Completed'],
+      ['Rachel Thibodeau','16:00','17:00','Joanne Frenette','Late cancel'],
+      ['Dave Melanson','16:30','18:00','Cédric Breau','Completed'],
+      ['Josée Landry','16:45','17:45','Alain Clark','Completed'],
+      ['Rachel Thibodeau','17:15','18:45','Shannon Pothier','Completed'],
+      ['Dave Melanson','18:15','19:15','Cathy Aucoin','Completed'],
+      ['Rachel Thibodeau','19:00','19:30','Dominique Caissy','Completed']
+    ];
+    const names = ['Dave Melanson', 'Josée Landry', 'Marc Cormier', 'Rachel Thibodeau'];
+    const cols = names.map((n) => ({
+      name: n,
+      blocks: rows.filter((r) => r[0] === n).map((r) => {
+        const L = look[r[4]], s = toMin(r[1]), e = toMin(r[2]);
+        return { name: r[3], top: (s - START) / 60 * PX + 2, h: (e - s) / 60 * PX - 4, bg: L.bg, border: L.border, ink: L.ink, meta: L.meta, label: L.pre + fmt(r[1]) + ' to ' + fmt(r[2]) };
+      })
+    }));
+    const hours = [];
+    for (let h = 9; h <= 19; h++) hours.push({ top: (h - 9) * PX - 8 < 0 ? 2 : (h - 9) * PX - 8, label: fmt(h + ':00') });
+    return { cols, hours, gridH: (END - START) / 60 * PX };
+  }
+}
+</script>
+</body>
+</html>

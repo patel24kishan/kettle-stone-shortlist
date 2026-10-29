@@ -1,0 +1,13 @@
+/* Staff sign in (feature 6e): one narrow card, same tokens and controls as the other screens. */
+.page {
+  align-items: center;
+  max-width: none;
+}
+.card {
+  width: 100%;
+  max-width: 440px;
+  margin-top: 24px;
+}
+.title {
+  font-size: 24px;
+}

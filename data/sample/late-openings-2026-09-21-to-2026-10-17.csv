@@ -1,0 +1,45 @@
+opening_id,appointment_id,date,day,start,length_min,therapist,kind,cancelled_at,hours_notice,heard_via,client_had_confirmed,refilled,refilled_how,booked_value_cad
+O01,A-24010,2026-09-21,Mon,12:30,60,Josée Landry,late cancel,2026-09-21 09:47,2.7,phone,yes (text),no,,115
+O02,A-24020,2026-09-21,Mon,15:45,60,Amira Haddad,no-show,2026-09-21 16:00,0.0,no-show,no,no,,115
+O03,A-24035,2026-09-22,Tue,11:00,90,Kelsey Babineau,late cancel,2026-09-22 07:12,3.8,voicemail (overnight),yes (text),no,,160
+O04,A-24038,2026-09-22,Tue,12:15,60,Dave Melanson,late cancel,2026-09-22 03:00,9.2,voicemail (overnight),yes (phone),yes,rebooked online,115
+O05,A-24065,2026-09-23,Wed,11:45,60,Rachel Thibodeau,late cancel,2026-09-22 23:22,12.4,online (Kneadly),yes (text),no,,115
+O06,A-24075,2026-09-23,Wed,15:00,60,Kelsey Babineau,late cancel,2026-09-23 01:42,13.3,online (Kneadly),yes (text),no,,115
+O07,A-24085,2026-09-23,Wed,18:45,60,Amira Haddad,no-show,2026-09-23 19:00,0.0,no-show,no,no,,115
+O08,A-24086,2026-09-23,Wed,18:45,60,Rachel Thibodeau,late cancel,2026-09-23 04:23,14.4,voicemail (overnight),yes (text),no,,115
+O09,A-24090,2026-09-24,Thu,10:15,60,Josée Landry,late cancel,2026-09-23 22:31,11.7,online (Kneadly),yes (text),no,,115
+O10,A-24099,2026-09-24,Thu,13:30,60,Dave Melanson,late cancel,2026-09-24 05:16,8.2,online (Kneadly),no,yes,desk called down the waitlist,115
+O11,A-24126,2026-09-25,Fri,13:15,60,Josée Landry,late cancel,2026-09-25 00:31,12.7,online (Kneadly),yes (text),yes,a client happened to call,115
+O12,A-24163,2026-09-28,Mon,11:30,60,Josée Landry,late cancel,2026-09-27 21:58,13.5,voicemail (overnight),no,yes,rebooked online,115
+O13,A-24167,2026-09-28,Mon,12:30,30,Amira Haddad,late cancel,2026-09-28 11:20,1.2,text reply,yes (phone),no,,70
+O14,A-24172,2026-09-28,Mon,13:30,60,Dave Melanson,no-show,2026-09-28 13:45,0.0,no-show,yes (text),no,,115
+O15,A-24188,2026-09-29,Tue,09:00,60,Marc Cormier,late cancel,2026-09-28 13:42,19.3,text reply,no,yes,a client happened to call,115
+O16,A-24193,2026-09-29,Tue,11:00,60,Dave Melanson,late cancel,2026-09-29 01:16,9.7,voicemail (overnight),yes (phone),no,,115
+O17,A-24231,2026-09-30,Wed,14:45,60,Amira Haddad,late cancel,2026-09-30 05:25,9.3,online (Kneadly),yes (text),no,,115
+O18,A-24265,2026-10-01,Thu,16:30,60,Rachel Thibodeau,late cancel,2026-10-01 09:09,7.3,morning call,yes (text),no,,115
+O19,A-24268,2026-10-01,Thu,17:45,60,Dave Melanson,late cancel,2026-10-01 06:25,11.3,voicemail (overnight),yes (text),no,,115
+O20,A-24281,2026-10-02,Fri,12:00,60,Dave Melanson,late cancel,2026-10-02 08:22,3.6,morning call,no,no,,115
+O21,A-24283,2026-10-02,Fri,13:00,60,Josée Landry,no-show,2026-10-02 13:15,0.0,no-show,no,no,,115
+O22,A-24284,2026-10-02,Fri,13:15,60,Dave Melanson,late cancel,2026-10-01 21:36,15.7,online (Kneadly),yes (text),yes,desk called down the waitlist,115
+O23,A-24320,2026-10-05,Mon,10:15,60,Amira Haddad,late cancel,2026-10-05 03:36,6.7,voicemail (overnight),yes (text),yes,desk called down the waitlist,115
+O24,A-24335,2026-10-05,Mon,14:45,60,Amira Haddad,late cancel,2026-10-05 00:59,13.8,online (Kneadly),yes (text),no,,115
+O25,A-24354,2026-10-06,Tue,12:00,60,Dave Melanson,late cancel,2026-10-05 23:29,12.5,online (Kneadly),yes (text),yes,a client happened to call,115
+O26,A-24360,2026-10-06,Tue,13:15,30,Dave Melanson,no-show,2026-10-06 13:30,0.0,no-show,no,no,,70
+O27,A-24365,2026-10-06,Tue,15:30,90,Kelsey Babineau,late cancel,2026-10-06 07:43,7.8,voicemail (overnight),yes (text),no,,160
+O28,A-24381,2026-10-07,Wed,11:15,60,Josée Landry,late cancel,2026-10-07 08:53,2.4,morning call,yes (text),no,,115
+O29,A-24408,2026-10-08,Thu,10:15,60,Josée Landry,no-show,2026-10-08 10:30,0.0,no-show,no,no,,115
+O30,A-24410,2026-10-08,Thu,11:00,60,Dave Melanson,late cancel,2026-10-08 03:00,8.0,voicemail (overnight),yes (text),no,,115
+O31,A-24423,2026-10-08,Thu,15:15,60,Dave Melanson,late cancel,2026-10-08 14:01,1.2,phone,yes (text),no,,115
+O32,A-24445,2026-10-09,Fri,13:45,60,Rachel Thibodeau,late cancel,2026-10-09 06:50,6.9,online (Kneadly),no,no,,115
+O33,A-24454,2026-10-09,Fri,17:15,60,Dave Melanson,late cancel,2026-10-09 13:51,3.4,phone,no,yes,a client happened to call,115
+O34,A-24506,2026-10-14,Wed,11:00,60,Rachel Thibodeau,late cancel,2026-10-14 03:04,7.9,voicemail (overnight),no,no,,115
+O35,A-24518,2026-10-14,Wed,15:00,60,Rachel Thibodeau,late cancel,2026-10-14 08:56,6.1,morning call,no,yes,desk called down the waitlist,115
+O36,A-24522,2026-10-14,Wed,16:00,60,Kelsey Babineau,late cancel,2026-10-14 10:26,5.6,phone,yes (text),no,,115
+O37,A-24531,2026-10-15,Thu,11:00,60,Dave Melanson,no-show,2026-10-15 11:15,0.0,no-show,no,no,,115
+O38,A-24534,2026-10-15,Thu,11:15,60,Marc Cormier,late cancel,2026-10-14 23:15,12.0,voicemail (overnight),yes (text),no,,115
+O39,A-24541,2026-10-15,Thu,14:00,60,Dave Melanson,late cancel,2026-10-15 10:40,3.3,phone,yes (text),no,,115
+O40,A-24547,2026-10-15,Thu,16:00,60,Rachel Thibodeau,late cancel,2026-10-15 14:43,1.3,text reply,no,no,,115
+O41,A-24560,2026-10-16,Fri,12:00,60,Dave Melanson,late cancel,2026-10-16 05:30,6.5,online (Kneadly),yes (text),no,,115
+O42,A-24567,2026-10-16,Fri,14:15,60,Kelsey Babineau,late cancel,2026-10-16 09:12,5.0,morning call,no,yes,a client happened to call,115
+O43,A-24571,2026-10-16,Fri,15:00,60,Dave Melanson,no-show,2026-10-16 15:15,0.0,no-show,no,no,,115
+O44,A-24594,2026-10-17,Sat,14:00,60,Amira Haddad,late cancel,2026-10-17 00:45,13.2,voicemail (overnight),yes (text),yes,rebooked online,115

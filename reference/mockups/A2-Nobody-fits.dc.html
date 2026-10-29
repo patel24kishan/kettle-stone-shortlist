@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Nobody fits (as-is)</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#0F766E}a:hover{color:#115E59}
+</style>
+</helmet>
+<div style="min-height: 680px; background: #F4F5F7; font-family: 'IBM Plex Sans', system-ui, sans-serif; color: #1F2937">
+  <header style="background: #FFFFFF; border-bottom: 1px solid #D1D5DB; padding: 0 30px; min-height: 62px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px">
+    <div style="display: flex; align-items: baseline; gap: 12px">
+      <span style="font-size: 18px; font-weight: 600; color: #111827">Kettle &amp; Stone</span>
+      <span style="font-size: 16px; color: #4B5563">Waitlist shortlist</span>
+    </div>
+    <span style="font-size: 15px; color: #4B5563">Front desk</span>
+  </header>
+  <main style="padding: 36px 48px; display: flex; flex-direction: column; gap: 28px; max-width: 1520px">
+    <section aria-labelledby="lo2-h" style="background: #FFFFFF; border: 1px solid #D1D5DB; border-radius: 8px; padding: 28px 30px; display: flex; flex-direction: column; gap: 22px">
+      <h1 id="lo2-h" style="margin: 0; font-size: 22px; font-weight: 600; color: #111827">Late opening</h1>
+      <div style="display: flex; flex-wrap: wrap; gap: 22px; align-items: flex-end">
+        <div style="display: flex; flex-direction: column; gap: 8px">
+          <label for="a2-date" style="font-size: 14px; font-weight: 500; color: #374151">Date</label>
+          <input id="a2-date" type="date" value="2026-10-15" style="height: 52px; box-sizing: border-box; padding: 0 14px; font: inherit; font-size: 17px; border: 1px solid #9CA3AF; border-radius: 6px; color: #111827; background: #FFFFFF; width: 206px">
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 8px">
+          <label for="a2-time" style="font-size: 14px; font-weight: 500; color: #374151">Start time</label>
+          <input id="a2-time" type="time" value="16:00" style="height: 52px; box-sizing: border-box; padding: 0 14px; font: inherit; font-size: 17px; border: 1px solid #9CA3AF; border-radius: 6px; color: #111827; background: #FFFFFF; width: 162px">
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 8px">
+          <label for="a2-ther" style="font-size: 14px; font-weight: 500; color: #374151">Therapist</label>
+          <select id="a2-ther" style="height: 52px; box-sizing: border-box; padding: 0 14px; font: inherit; font-size: 17px; border: 1px solid #9CA3AF; border-radius: 6px; color: #111827; background: #FFFFFF; width: 230px">
+            <option>Rachel Thibodeau</option>
+            <option>Amira Haddad</option>
+            <option>Dave Melanson</option>
+            <option>Josée Landry</option>
+            <option>Kelsey Babineau</option>
+            <option>Marc Cormier</option>
+          </select>
+        </div>
+        <fieldset style="border: 0; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px">
+          <legend style="font-size: 14px; font-weight: 500; color: #374151; padding: 0; margin-bottom: 8px">Length</legend>
+          <div style="display: flex; flex-wrap: wrap; gap: 10px">
+            <label style="height: 54px; box-sizing: border-box; padding: 0 18px; display: flex; align-items: center; gap: 10px; border: 1px solid #9CA3AF; border-radius: 6px; background: #FFFFFF; font-size: 17px; color: #111827"><input type="radio" name="a2-len" value="30" style="width: 18px; height: 18px; margin: 0; accent-color: #0F766E">30 min</label>
+            <label style="height: 54px; box-sizing: border-box; padding: 0 18px; display: flex; align-items: center; gap: 10px; border: 1px solid #9CA3AF; border-radius: 6px; background: #FFFFFF; font-size: 17px; color: #111827"><input type="radio" name="a2-len" value="45" style="width: 18px; height: 18px; margin: 0; accent-color: #0F766E">45 min</label>
+            <label style="height: 54px; box-sizing: border-box; padding: 0 18px; display: flex; align-items: center; gap: 10px; border: 2px solid #0F766E; border-radius: 6px; background: #E6F4F1; font-size: 17px; font-weight: 600; color: #111827"><input type="radio" name="a2-len" value="60" checked style="width: 18px; height: 18px; margin: 0; accent-color: #0F766E">60 min</label>
+            <label style="height: 54px; box-sizing: border-box; padding: 0 18px; display: flex; align-items: center; gap: 10px; border: 1px solid #9CA3AF; border-radius: 6px; background: #FFFFFF; font-size: 17px; color: #111827"><input type="radio" name="a2-len" value="90" style="width: 18px; height: 18px; margin: 0; accent-color: #0F766E">90 min</label>
+          </div>
+        </fieldset>
+      </div>
+      <div>
+        <button type="button" style="height: 52px; padding: 0 26px; border: 0; border-radius: 6px; background: #0F766E; color: #FFFFFF; font: inherit; font-size: 17px; font-weight: 600">Search waitlist</button>
+      </div>
+    </section>
+
+    <section aria-labelledby="res2-h" style="display: flex; flex-direction: column; gap: 18px">
+      <div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 16px">
+        <h2 id="res2-h" style="margin: 0; font-size: 24px; font-weight: 600; color: #111827">Nobody fits</h2>
+        <span style="font-size: 17px; color: #4B5563">Rachel Thibodeau · Thu, Oct 15 · 4:00 to 5:00 PM · 60 min</span>
+      </div>
+      <div style="background: #FFFFFF; border: 1px dashed #9CA3AF; border-radius: 8px; padding: 40px 24px; display: flex; flex-direction: column; align-items: center; gap: 12px; text-align: center">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#374151" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="M15.5 15.5 21 21"></path><path d="M7.5 10.5h6"></path></svg>
+        <p style="margin: 0; font-size: 20px; font-weight: 600; color: #111827">No one on the waitlist can take this opening.</p>
+        <p style="margin: 0; font-size: 16px; color: #4B5563">Nobody matches this therapist, day, time and length.</p>
+      </div>
+    </section>
+  </main>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":680}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return {};
+  }
+}
+</script>
+</body>
+</html>
