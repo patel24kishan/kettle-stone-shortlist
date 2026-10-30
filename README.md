@@ -1,47 +1,50 @@
 # Kettle & Stone waitlist shortlist
 
-When a client cancels late, this tool shows the front desk up to 3 waitlist people who fit, or "nobody". It never contacts clients.
+## How to run it
 
-## Set it up (once, 30 minutes)
+About 10 minutes the first time, 1 minute after that. No coding needed: you copy a few short lines and press Enter.
 
-Keep keys (long passwords) private. Never email them.
+## Set it up (once per computer)
 
-1. **GitHub** (stores the code): sign in and press **Fork**.
-2. **Supabase** (stores records and logins):
-   - Create a project in **Canada (Central)**.
-   - In **SQL Editor**, paste `supabase/schema.sql` and press **Run**.
-   - Copy the **Project URL** (project home page), then the **Publishable key** and **Secret key** (**Project Settings › API Keys**).
-   - Under **Authentication › Users**, add each staff member.
-3. **Anthropic** (reads the notes): at platform.claude.com, create an API key. Set a $10 monthly limit.
-4. **Vercel** (puts it online): sign in with GitHub and import your copy. Add these **Environment Variables** and press **Deploy**:
+1. **Install Node.js.** Go to [nodejs.org](https://nodejs.org), download the version marked **LTS** and run the installer. Click Next until it finishes.
+2. **Get the tool's folder.** On this page, click the green **Code** button, then **Download ZIP**. Right-click the downloaded file and choose **Extract All**. Put the folder somewhere easy, like the Desktop.
+3. **Open a terminal in that folder.** Open the folder, right-click an empty spot inside it and choose **Open in Terminal**. A window with a blinking cursor opens. That's where you type.
+4. **Install the tool's parts.** Type this and press Enter. Wait until the cursor comes back (1 to 2 minutes).
 
-   | Name | Value |
-   |---|---|
-   | `NEXT_PUBLIC_SUPABASE_URL` | Project URL |
-   | `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Publishable key |
-   | `SUPABASE_SERVICE_ROLE_KEY` | Secret key |
-   | `ANTHROPIC_API_KEY` | Claude API key |
+   ```
+   npm install
+   ```
 
-Cost: about $46–50 a month.
+## Start it (every time)
 
-## Test it
+5. **Start the tool.** In the terminal, type this and press Enter. When it says **Ready**, it's running. Keep this window open while you use the tool.
 
-1. Open your Vercel link and sign in.
-2. Download the waitlist, late-openings and appointments files from `data/sample`.
-3. In **Waitlist (admin)**, choose them, set the run date to **Oct 21, 2026**, and press **Import and analyse**. Expect 60 lines read, 30 people ready, 20 stale, 10 repeats.
-4. In **Search**, pick **All openings from a file** and press **Search all openings**.
-5. Check: **O39** shows Shawn Duguay, Luc Bernard, Lise Gautreau. **O40** shows nobody.
+   ```
+   npm run dev
+   ```
 
-## Daily use
+6. **Open it in the browser.** Open Chrome or Edge and go to `localhost:3000`.
 
-1. Load new files in **Waitlist (admin)**.
-2. In **Search**, pick **One opening**, fill it in, and press **Search waitlist**.
-3. Call the first name. Once booked in Kneadly, press **Booked**. **Undo** fixes mistakes.
+## Use it (each time an opening comes up)
 
-## Problems
+7. **Load the three files.** Click **Waitlist (admin)** at the top. Choose the waitlist file, the late openings file and the booking export. Set the run date, then press **Import and analyse**.
 
-- **Deploy failed:** check the variable names, then **Redeploy**.
-- **"Not read":** check the Claude key, then **Redeploy**.
-- **File refused:** use it exactly as exported.
+   To try it first, use the files in the `data/sample` folder with run date **Oct 21, 2026**.
+8. **Find who to call.** Click **Search**. For every opening in the file: pick **All openings from a file** and press **Search all openings**. For one new opening: pick **One opening**, fill in the date, time, therapist and length, and press **Search waitlist**.
 
-Use sample files only until Marc approves the privacy note.
+   You'll see up to 3 names in waitlist order, or "nobody" if no one fits.
+9. **Call, then mark it.** Call the first name. If they say yes and you've booked them in Kneadly, press **Booked**, and they come off every other opening. No answer or no thanks? Call the next name. Pressed it by mistake? Press **Undo**.
+
+## Stop it (when you're done)
+
+10. **Close the tool.** Click in the terminal window, press **Ctrl + C**, then close the window.
+
+## If something goes wrong
+
+| What you see | What to do |
+|---|---|
+| "A file is refused" | The message names the missing column. Use the file exactly as it was exported. Don't edit it. |
+| People show as "not read" | A new waitlist needs the Claude key to read the notes. Ask the builder to connect it. |
+| The page shows an error | Stop it (step 10), delete the `.next` folder inside the tool's folder, then start it again (step 5). |
+
+The tool only suggests names. It never contacts clients and never changes your files.
